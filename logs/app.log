@@ -1,0 +1,559 @@
+2024-12-18 19:11:38,308 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=1
+2024-12-18 19:11:40,255 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=1
+2024-12-18 19:11:40,256 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/land-rover-discovery-sport-se-r-dynamic-2021-red-CzCVaAtkLoQGlRdpImjybxCZ.html?page=1&pos=1&cur_pos=1&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=0
+2024-12-18 19:11:49,295 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/toyota-camry-2019-red-u3R7hpYPI83NzYc11a2gpCCA.html?page=1&pos=3&cur_pos=3&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=2
+2024-12-18 19:11:57,024 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/jaguar-xj-4-2-super-automatic-2008-black-tHwy6tig4cTeHH31lOKCRJXd.html?page=1&pos=5&cur_pos=5&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=4
+2024-12-18 19:12:07,132 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/volkswagen-routan-se-2012-blue-ujXXOqk8ljzvadvjX8PlpLn0.html?page=1&pos=7&cur_pos=7&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=6
+2024-12-18 19:12:15,054 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/hyundai-sonata-limited-2018-silver-drOs0kGQCD0ZmXWsKcx1V93f.html?page=1&pos=9&cur_pos=9&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=8
+2024-12-18 19:12:24,652 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/ford-explorer-2012-black-cEsMcqwNhDdjNUFjGVwsMt3e.html?page=1&pos=11&cur_pos=11&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=10
+2024-12-18 19:12:32,346 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ojodu/cars/hyundai-elantra-2014-silver-akekBPrQ3OVAyhcRxXYcQEbq.html?page=1&pos=13&cur_pos=13&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=12
+2024-12-18 19:12:40,781 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/toyota-corolla-2014-gray-8Ra9afw7qUO9EwdPJgqEhIcI.html?page=1&pos=15&cur_pos=15&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=14
+2024-12-18 19:12:48,040 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ojodu/cars/hyundai-sonata-2014-silver-9Y9mkUtvrBAzX22nV2XaSMmU.html?page=1&pos=17&cur_pos=17&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=16
+2024-12-18 19:12:57,396 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-gle-class-gle-450-4matic-2019-black-iUmhCjLueaN96BWGHEa34OJp.html?page=1&pos=19&cur_pos=19&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=18
+2024-12-18 19:13:06,023 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/toyota-camry-2012-black-kB3LXVabPWJkvbuKgSQp4wcz.html?page=1&pos=21&cur_pos=21&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=20
+2024-12-18 19:13:14,149 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-m-class-ml-350-4matic-2008-white-qijdldvUtDS4zboCcFtEFSrC.html?page=1&pos=23&cur_pos=23&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=22
+2024-12-18 19:13:23,703 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kaduna-north/cars/bmw-3-series-330xi-awd-2008-blue-fOxSdYc2qsm8me0msip22HVy.html?page=1&pos=25&cur_pos=25&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=24
+2024-12-18 19:13:32,716 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/jaguar-xj-xj8-2004-green-eJRVCiWLo3ngzUK8ltZulzhW.html?page=1&pos=2&cur_pos=2&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=1
+2024-12-18 19:13:40,234 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/volkswagen-passat-2-0-comfort-2008-silver-fc5seIZE8K5cuUeuP7mLALJP.html?page=1&pos=4&cur_pos=4&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=3
+2024-12-18 19:13:47,491 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/toyota-sienna-2013-black-rNRX8HuDsC5gf8MEeB4g2ghn.html?page=1&pos=6&cur_pos=6&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=5
+2024-12-18 19:13:58,518 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/mercedes-benz-cla-class-amg-cla-45-4matic-sedan-2014-gray-saGrRmBi4oaaUVxgbgK0Br9C.html?page=1&pos=8&cur_pos=8&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=7
+2024-12-18 19:14:07,006 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/audi-a7-3-0-tsi-2012-blue-rKtUHtotW01zIbfBMGjCszEu.html?page=1&pos=10&cur_pos=10&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=9
+2024-12-18 19:14:13,463 - __main__ - INFO - Accessing listing URL: https://jiji.ng/central-business-district/cars/toyota-highlander-limited-v6-4x4-2004-white-wYxN04EdmCQ9KUlWrJdFoPKW.html?page=1&pos=12&cur_pos=12&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=11
+2024-12-18 19:14:22,217 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/toyota-corolla-2015-silver-x2CWXjH1DJ59dYxpzmCtzkRm.html?page=1&pos=14&cur_pos=14&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=13
+2024-12-18 19:14:30,286 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/acura-mdx-2015-red-uZTjKc4msc7cwOPEwXKmYF1.html?page=1&pos=16&cur_pos=16&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=15
+2024-12-18 19:14:39,323 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/lexus-rx-2010-red-tV0Wtme0ERFi5CWhTkEL1QGP.html?page=1&pos=18&cur_pos=18&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=17
+2024-12-18 19:14:48,272 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ogudu/cars/ford-f-150-2014-white-1COWhBfAfXDNVRpMkyJbBZ1H.html?page=1&pos=20&cur_pos=20&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=19
+2024-12-18 19:14:57,975 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/honda-accord-crosstour-ex-l-2012-white-zosbGhZzQm4MbRE13qk5Bd2y.html?page=1&pos=22&cur_pos=22&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=21
+2024-12-18 19:15:07,986 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/land-rover-range-rover-sport-autobiography-4x4-phev-2020-gold-m798vMu9FSPU1aDUG2dZypmd.html?page=1&pos=24&cur_pos=24&ads_per_page=25&ads_count=105072&lid=5l6SWX7LoYLJ9eSd&indexPosition=23
+2024-12-18 19:16:02,254 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=2
+2024-12-18 19:16:04,633 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=2
+2024-12-18 19:16:04,634 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/chrysler-town-country-3-6-2wd-2013-gray-akobzhSPRwp6DvpSJMYYBTqz.html?page=2&pos=1&cur_pos=1&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=0
+2024-12-18 19:16:13,850 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/toyota-tundra-limited-2022-green-38KauFoCBCGgLykQNP7tOv9f.html?page=2&pos=3&cur_pos=3&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=2
+2024-12-18 19:16:21,706 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-e350-2010-white-iDU5qxsrPPqEETaTRJQx8RPQ.html?page=2&pos=5&cur_pos=5&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=4
+2024-12-18 19:16:32,416 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-s-class-2015-gray-dfllixHJQNNY4PeICz0qKNKq.html?page=2&pos=7&cur_pos=7&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=6
+2024-12-18 19:16:40,181 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/land-rover-range-rover-evoque-r-dynamic-s-awd-2020-black-5viEVEu6lIfIvBKqvZKGUlC2.html?page=2&pos=9&cur_pos=9&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=8
+2024-12-18 19:16:50,412 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-cla-class-cla-250-sedan-2017-black-kMKTQucWPM6qR0urDqhCoJCZ.html?page=2&pos=11&cur_pos=11&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=10
+2024-12-18 19:16:59,527 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kado/cars/land-rover-range-rover-sport-hse-4x4-3-0l-6cyl-8a-2014-beige-cySiEOcLFRtVp2zyV19XjgEa.html?page=2&pos=13&cur_pos=13&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=12
+2024-12-18 19:17:08,374 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-glk-class-350-suv-2013-gray-noI0g8B1oTn8wJrht2kYNAh.html?page=2&pos=15&cur_pos=15&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=14
+2024-12-18 19:17:15,897 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/toyota-corolla-le-2005-gold-f6s9sXPHs1zDGYsjig2DJFQb.html?page=2&pos=17&cur_pos=17&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=16
+2024-12-18 19:17:25,726 - __main__ - INFO - Accessing listing URL: https://jiji.ng/obio-akpor/cars/lexus-es-350-2009-gray-prDOn99bkD9JGOb9py8o8sl0.html?page=2&pos=19&cur_pos=19&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=18
+2024-12-18 19:17:32,755 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-cerato-2014-gray-cki74pUFtgbTxtzs6eGu2qYx.html?page=2&pos=21&cur_pos=21&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=20
+2024-12-18 19:17:41,269 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/toyota-rav4-3-5-2008-red-hYbqrtuzihSWXhFOSoybpofC.html?page=2&pos=23&cur_pos=23&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=22
+2024-12-18 19:17:50,898 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/hyundai-santa-fe-limited-ultimate-awd-2017-white-d0c2HEz4diLmdsIgHxnJBwll.html?page=2&pos=25&cur_pos=25&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=24
+2024-12-18 19:17:59,556 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/mazda-cx-9-grand-touring-awd-2007-silver-ifLOOKRr2tsM1TXWP6MCKe40.html?page=2&pos=2&cur_pos=2&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=1
+2024-12-18 19:18:09,238 - __main__ - INFO - Accessing listing URL: https://jiji.ng/wuse/cars/mercedes-benz-e320-2005-black-2IC47q95DyKghCrVsiNOdHn.html?page=2&pos=4&cur_pos=4&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=3
+2024-12-18 19:18:15,943 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/mercedes-benz-gla-250-2015-black-zTx50TkZYjl8Nx6Mh5bz2QPc.html?page=2&pos=6&cur_pos=6&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=5
+2024-12-18 19:18:23,877 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/mercedes-benz-gla-class-2017-white-BqeGLfOgAa0ppPM2lnAdry8R.html?page=2&pos=8&cur_pos=8&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=7
+2024-12-18 19:18:32,615 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-2015-gray-9RtIsUYN6H0bv16MeTr8dcOr.html?page=2&pos=10&cur_pos=10&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=9
+2024-12-18 19:18:41,729 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/audi-q7-3-0t-premium-quattro-2011-black-aIry4g8fifCLLblxeZN0F6jZ.html?page=2&pos=12&cur_pos=12&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=11
+2024-12-18 19:18:49,438 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-e350-2021-black-bkYC6dJn1WjFX48UNK6sTaoE.html?page=2&pos=14&cur_pos=14&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=13
+2024-12-18 19:18:57,471 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-c-class-c-300-4matic-w205-2016-brown-locYkyZDyX1fv21RjbNObUaL.html?page=2&pos=16&cur_pos=16&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=15
+2024-12-18 19:19:05,180 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/toyota-corolla-2013-red-aZBjap056YbIdVXqDxbeG7VU.html?page=2&pos=18&cur_pos=18&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=17
+2024-12-18 19:19:14,089 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/toyota-yaris-xle-sedan-4dr-2019-red-2Rb33s5qHENyOf68R5sg8bm7.html?page=2&pos=20&cur_pos=20&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=19
+2024-12-18 19:19:24,074 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/toyota-venza-v6-2011-black-wcSf7RekkENnxIssTdXejUvk.html?page=2&pos=22&cur_pos=22&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=21
+2024-12-18 19:19:34,535 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-2014-red-wK3gtlCpcb0MCabGWC7qUlE9.html?page=2&pos=24&cur_pos=24&ads_per_page=25&ads_count=105062&lid=Lcgqt_pHvcw_HZki&indexPosition=23
+2024-12-18 19:21:02,297 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=3
+2024-12-18 19:21:05,093 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=3
+2024-12-18 19:21:05,094 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-2016-gray-biqpna34lBHkgOqI6t8ctr1l.html?page=3&pos=1&cur_pos=1&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=0
+2024-12-18 19:21:13,796 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/ford-explorer-2017-white-8wg95x9rCapgDUAw7Ly5U3.html?page=3&pos=3&cur_pos=3&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=2
+2024-12-18 19:21:23,084 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-m-class-2014-white-r3WVNpsTaY3feY7ITKlLt2Ig.html?page=3&pos=5&cur_pos=5&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=4
+2024-12-18 19:21:33,551 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-gla-250-2017-white-5W1dAwYcTX19C3Zn6ZPTRtPV.html?page=3&pos=7&cur_pos=7&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=6
+2024-12-18 19:21:41,692 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/peugeot-607-3-0-v6-2005-gray-ujkhDj5K1fYJ8vQFznQs5rNL.html?page=3&pos=9&cur_pos=9&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=8
+2024-12-18 19:21:48,382 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-gle-class-gle-350-2016-black-CwjaidsmLesffzlNIFSTZQMA.html?page=3&pos=11&cur_pos=11&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=10
+2024-12-18 19:21:56,756 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/hyundai-elantra-gls-2012-silver-p1fwPtVpXDpPeOBwycOXg5yF.html?page=3&pos=13&cur_pos=13&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=12
+2024-12-18 19:22:07,924 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-civic-touring-cvt-2023-white-q8xokBfo3cQZPNyednb8BjHo.html?page=3&pos=15&cur_pos=15&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=14
+2024-12-18 19:22:18,921 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/lexus-es-350-2008-silver-xoEGcwwmYkMtiPUjNRfaCt9u.html?page=3&pos=17&cur_pos=17&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=16
+2024-12-18 19:22:28,233 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/ford-f-150-2017-blue-aLVXspCv9MEbVlrwf57SkENx.html?page=3&pos=19&cur_pos=19&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=18
+2024-12-18 19:22:37,588 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-cr-v-2014-red-nta1nbk7hTTU67avX4tonQqc.html?page=3&pos=21&cur_pos=21&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=20
+2024-12-18 19:22:45,878 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-sport-1-5t-2020-blue-kgkV0ofWBn6vwQf7aV639Cng.html?page=3&pos=23&cur_pos=23&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=22
+2024-12-18 19:22:54,530 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gbagada/cars/hyundai-ix35-2012-black-7RHJHNEf7mHxiyYCBBV4fZ4j.html?page=3&pos=25&cur_pos=25&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=24
+2024-12-18 19:23:04,248 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/honda-pilot-ex-l-4x4-3-5l-6cyl-5a-2008-green-pgJQXyLFta7cicbDHGaFIFSk.html?page=3&pos=2&cur_pos=2&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=1
+2024-12-18 19:23:15,153 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/toyota-rav4-xle-awd-2-5l-4cyl-6a-2013-red-kgSpZFZDtZuh0SE2zHzYuq7j.html?page=3&pos=4&cur_pos=4&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=3
+2024-12-18 19:23:22,557 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/honda-cr-v-2013-white-naSLfPpuLl1ZEqQfm9vYYNCA.html?page=3&pos=6&cur_pos=6&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=5
+2024-12-18 19:23:30,689 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-rio-2013-gray-b6i9hAfRBePRWx47Nb2vafc1.html?page=3&pos=8&cur_pos=8&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=7
+2024-12-18 19:23:38,160 - __main__ - INFO - Accessing listing URL: https://jiji.ng/obio-akpor/cars/chevrolet-camaro-lt-automatic-2011-gray-BKKldCVvFMlOoNfvWytyTZpe.html?page=3&pos=10&cur_pos=10&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=9
+2024-12-18 19:23:47,395 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/kia-rio-2019-silver-iDzr8b1vDE4PjoEmQw0X8XfJ.html?page=3&pos=12&cur_pos=12&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=11
+2024-12-18 19:23:57,476 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-gla-250-2021-red-APrXiFIufHI8LWqmuXnpLAT4.html?page=3&pos=14&cur_pos=14&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=13
+2024-12-18 19:24:08,416 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/toyota-camry-2014-black-3Bkbu1jPx6q28cA7ySEyZz3B.html?page=3&pos=16&cur_pos=16&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=15
+2024-12-18 19:24:24,218 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-fit-ex-2016-gray-rImiDrynytkOcCWzjaNuidSz.html?page=3&pos=18&cur_pos=18&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=17
+2024-12-18 19:24:35,051 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-c250-2013-silver-7nEC0Lk2VwPGz5ncgJ6fxq54.html?page=3&pos=20&cur_pos=20&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=19
+2024-12-18 19:24:47,159 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-e300-2017-white-BDIpzewwW0hfPSOSaQtDUu1d.html?page=3&pos=22&cur_pos=22&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=21
+2024-12-18 19:24:55,127 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/nissan-titan-king-cab-le-4x4-2010-black-mv1NjWKA2wfzS4bpWr3IsRtL.html?page=3&pos=24&cur_pos=24&ads_per_page=25&ads_count=105037&lid=3KelO7-Cg68TBEQL&indexPosition=23
+2024-12-18 19:25:03,159 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=4
+2024-12-18 19:25:06,046 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=4
+2024-12-18 19:25:06,046 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-gle53-2022-white-aE3eaDLS1X11fyS9gm8jCp6U.html?page=4&pos=1&cur_pos=1&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=0
+2024-12-18 19:25:18,797 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/toyota-camry-2016-black-3v9hffA38fFzL1xb6POUgDnk.html?page=4&pos=3&cur_pos=3&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=2
+2024-12-18 19:25:27,904 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ajah/cars/toyota-land-cruiser-4-0-v6-gx-2014-black-fc7YQeJOkK4HmQvyXBek8hkU.html?page=4&pos=5&cur_pos=5&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=4
+2024-12-18 19:25:34,808 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/toyota-highlander-2013-brown-5iPGjCcdgbLJ0HKyDWGgbv5V.html?page=4&pos=7&cur_pos=7&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=6
+2024-12-18 19:25:45,285 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/toyota-yaris-base-hatchback-5dr-2010-silver-tttzNNYYyIyo8EX5WGpgSvyq.html?page=4&pos=9&cur_pos=9&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=8
+2024-12-18 19:25:54,300 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-ex-1-5t-2020-white-g7yww7THhm5kYvatUuRSsQMl.html?page=4&pos=11&cur_pos=11&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=10
+2024-12-18 19:26:02,858 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-cerato-2010-silver-iUzxcrMsfS9zbQvE9n3Fthgs.html?page=4&pos=13&cur_pos=13&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=12
+2024-12-18 19:26:10,909 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/toyota-land-cruiser-1999-green-pzT8tIwk2SLtDze2QSpxFkQv.html?page=4&pos=15&cur_pos=15&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=14
+2024-12-18 19:26:20,269 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kubwa/cars/lexus-es-350-2008-black-wWEMfABtBQDDlqcCB99k95xY.html?page=4&pos=17&cur_pos=17&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=16
+2024-12-18 19:26:28,578 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-odyssey-2018-blue-ySBwDPGf9lqzaguqLIluFVNm.html?page=4&pos=19&cur_pos=19&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=18
+2024-12-18 19:26:40,507 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-cerato-1-6-lx-2009-silver-q8t1Rd34oEyHQ2Z678VaWzPT.html?page=4&pos=21&cur_pos=21&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=20
+2024-12-18 19:26:48,109 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/toyota-highlander-2016-gray-3Pgsu3hUpdkk9b7eCiis8TzU.html?page=4&pos=23&cur_pos=23&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=22
+2024-12-18 19:26:56,785 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/toyota-venza-v6-2011-gray-oZVJmj1QeUV5Erxrj6CJNNfy.html?page=4&pos=25&cur_pos=25&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=24
+2024-12-18 19:27:06,685 - __main__ - INFO - Accessing listing URL: https://jiji.ng/yaba/cars/lexus-rx-350-2015-black-uaLa1HvKzvvrI3QPSt7Ya2kQ.html?page=4&pos=2&cur_pos=2&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=1
+2024-12-18 19:27:16,723 - __main__ - INFO - Accessing listing URL: https://jiji.ng/owerri-municipal/cars/toyota-sienna-xle-1-hatch-2000-red-crX1efef52sxl18CY9fjPuGZ.html?page=4&pos=4&cur_pos=4&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=3
+2024-12-18 19:27:27,558 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/toyota-corolla-le-eco-1-8l-4cyl-2a-2018-red-yBOgp7UddXWpFqZxgFBJebQv.html?page=4&pos=6&cur_pos=6&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=5
+2024-12-18 19:27:37,191 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-cr-v-2013-black-vVVZzOvleMVXZYhwywYfb9Pt.html?page=4&pos=8&cur_pos=8&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=7
+2024-12-18 19:27:47,520 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/hyundai-sonata-2016-gray-8LcfYaGBbxU8sMWFcUUL4zMJ.html?page=4&pos=10&cur_pos=10&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=9
+2024-12-18 19:27:56,564 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-gle-class-gle-350-2022-white-xEgEm7MdVClRfKAO7pZZOh3z.html?page=4&pos=12&cur_pos=12&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=11
+2024-12-18 19:28:07,251 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-crosstour-3-5-awd-2013-red-yYzNgiyPNTAKp4OzCL0MchNY.html?page=4&pos=14&cur_pos=14&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=13
+2024-12-18 19:28:19,302 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/lexus-lx-570-2008-silver-uHhPwBIZgcipsR2Id8c6DsU7.html?page=4&pos=16&cur_pos=16&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=15
+2024-12-18 19:28:28,714 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/hyundai-elantra-2015-gray-hn4H2kFpaJQh8ZWjhKNXmUpM.html?page=4&pos=18&cur_pos=18&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=17
+2024-12-18 19:28:36,887 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/new-byd-yuan-up-45-kwh-fwd-2024-white-BkIDdiJJVUNecgqt14AXEIM5.html?page=4&pos=20&cur_pos=20&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=19
+2024-12-18 19:28:47,636 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/toyota-4-runner-2004-black-ke6BapHjsh4ihroZzfsUJsWa.html?page=4&pos=22&cur_pos=22&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=21
+2024-12-18 19:28:58,621 - __main__ - INFO - Accessing listing URL: https://jiji.ng/obio-akpor/cars/toyota-4-runner-limited-v6-2005-black-BeVM7wIhrUhndtsdMdLNZBsR.html?page=4&pos=24&cur_pos=24&ads_per_page=25&ads_count=105076&lid=HFmCv33Si2fHZJZg&indexPosition=23
+2024-12-18 19:29:07,126 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=5
+2024-12-18 19:29:09,581 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=5
+2024-12-18 19:29:09,581 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-gle43-2017-red-b5vcyPNenDlG0cEGaVFwrhA.html?page=5&pos=1&cur_pos=1&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=0
+2024-12-18 19:29:20,931 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/toyota-land-cruiser-4-5-v8-td-gx-r-2010-black-3fWrW9fxyDl0akcaWchnupHO.html?page=5&pos=3&cur_pos=3&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=2
+2024-12-18 19:29:30,666 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/ford-fusion-se-awd-2017-white-zoLBsCzW2SWXlChD4TQZcRix.html?page=5&pos=5&cur_pos=5&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=4
+2024-12-18 19:29:41,335 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/new-land-rover-range-rover-velar-2022-gray-C6b6oUv8kmgcEyJ9JAfqhyj6.html?page=5&pos=7&cur_pos=7&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=6
+2024-12-18 19:29:52,856 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/hyundai-elantra-2013-gray-ClU56MaJe5od3ywLIp2ueqHj.html?page=5&pos=9&cur_pos=9&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=8
+2024-12-18 19:30:00,384 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/land-rover-range-rover-velar-p380-se-r-dynamic-4x4-2018-white-jG2oEV4CJUX8Cd4zV1UqoUrZ.html?page=5&pos=11&cur_pos=11&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=10
+2024-12-18 19:30:09,877 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-sedan-ex-2007-silver-3VkNkAFD21BNQB4qaYppcHJK.html?page=5&pos=13&cur_pos=13&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=12
+2024-12-18 19:30:20,416 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/toyota-highlander-xle-2021-silver-xB52QQwWqqpkZSMU3Z8eFxLa.html?page=5&pos=15&cur_pos=15&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=14
+2024-12-18 19:30:27,641 - __main__ - INFO - Accessing listing URL: https://jiji.ng/agege/cars/mercedes-benz-e300-2017-white-hnef8lRUfBALnAuen6TaJyLo.html?page=5&pos=17&cur_pos=17&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=16
+2024-12-18 19:30:37,576 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ogudu/cars/toyota-camry-2016-gray-nCJPtzddDel9ZvcO9xi0WxMx.html?page=5&pos=19&cur_pos=19&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=18
+2024-12-18 19:30:49,002 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/lexus-es-350-2007-black-m8itIDH023uZEZLslNTmhqs7.html?page=5&pos=21&cur_pos=21&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=20
+2024-12-18 19:30:58,266 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-2016-black-m877IHdBPrXaxUnzEtCXcIrc.html?page=5&pos=23&cur_pos=23&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=22
+2024-12-18 19:31:07,947 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/mitsubishi-galant-2012-white-4ZfaHBCIovMDtCilmgDY8Z8X.html?page=5&pos=25&cur_pos=25&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=24
+2024-12-18 19:31:17,633 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/toyota-venza-limited-2021-white-tQ3fQOf6wQaqvER5KI444Hk2.html?page=5&pos=2&cur_pos=2&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=1
+2024-12-18 19:31:26,464 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ibadan/cars/toyota-highlander-se-2011-black-8qsXuw3WBrKH1Bg29sQZQIyt.html?page=5&pos=4&cur_pos=4&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=3
+2024-12-18 19:31:36,285 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/audi-q7-3-6-fsi-2008-blue-4VBhcTkNQsv6odtcp57ItN9J.html?page=5&pos=6&cur_pos=6&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=5
+2024-12-18 19:31:44,275 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-morning-2013-off-white-le32ysK6ru2x1h1hZ40F8f4u.html?page=5&pos=8&cur_pos=8&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=7
+2024-12-18 19:31:56,215 - __main__ - INFO - Accessing listing URL: https://jiji.ng/yaba/cars/opel-frontera-1964-bp3CDuM97J4ysyuMIaGD1nj3.html?page=5&pos=10&cur_pos=10&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=9
+2024-12-18 19:32:07,458 - __main__ - INFO - Accessing listing URL: https://jiji.ng/warri-south/cars/lexus-rx-350-2009-9ZuScMbvdneFxkmN5LKIj3mF.html?page=5&pos=12&cur_pos=12&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=11
+2024-12-18 19:32:19,217 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/lexus-rx-350-fwd-2014-silver-jVxW9rGlW01D2c2lfbnnOTsW.html?page=5&pos=14&cur_pos=14&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=13
+2024-12-18 19:32:29,932 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-2011-silver-QE7ddSwaZAEwAVvDbaGRfjV.html?page=5&pos=16&cur_pos=16&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=15
+2024-12-18 19:32:39,855 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/mercedes-benz-m-class-2015-gray-cKKq2zA5AbLhhRHsWiK82PYd.html?page=5&pos=18&cur_pos=18&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=17
+2024-12-18 19:32:47,556 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/lexus-rx-2015-gray-z7pVSeC4Tv9iZhmF8wGd1vfX.html?page=5&pos=20&cur_pos=20&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=19
+2024-12-18 19:32:56,240 - __main__ - INFO - Accessing listing URL: https://jiji.ng/garki-ii/cars/mazda-626-2006-silver-6voM9CZAsdFD4EoyJhCPQPKO.html?page=5&pos=22&cur_pos=22&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=21
+2024-12-18 19:33:09,960 - __main__ - INFO - Accessing listing URL: https://jiji.ng/enugu-north/cars/toyota-venza-v6-awd-2010-pearl-djpgfgDcTvDlfEY3uWnku12K.html?page=5&pos=24&cur_pos=24&ads_per_page=25&ads_count=105070&lid=x8uVwiYNadjo1W6p&indexPosition=23
+2024-12-18 19:33:20,649 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=6
+2024-12-18 19:33:23,041 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=6
+2024-12-18 19:33:23,042 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/toyota-highlander-limited-v6-fwd-2004-black-hZqssS1nKZbNGvnb9464dZm2.html?page=6&pos=1&cur_pos=1&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=0
+2024-12-18 19:33:34,727 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/mercedes-benz-m-class-ml-350-4matic-2012-black-aWxPFvSjVrH3kwR4ItoXy3XY.html?page=6&pos=3&cur_pos=3&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=2
+2024-12-18 19:33:44,997 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-cerato-2015-gray-f4fNW0pCwi8GkGiWgFzzSpD5.html?page=6&pos=5&cur_pos=5&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=4
+2024-12-18 19:33:56,010 - __main__ - INFO - Accessing listing URL: https://jiji.ng/agege/cars/mercedes-benz-e350-2014-blue-s3ZULzKYtq3OePYOK8k8zh5O.html?page=6&pos=7&cur_pos=7&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=6
+2024-12-18 19:34:06,414 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-accord-ex-cvt-w-o-bsi-2023-gray-uoiAcFJECa2WpBkAJRoeFSRX.html?page=6&pos=9&cur_pos=9&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=8
+2024-12-18 19:34:14,802 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-glc-class-2017-black-5jZ2alsfTDvxz5ecNYdqmyvb.html?page=6&pos=11&cur_pos=11&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=10
+2024-12-18 19:34:25,473 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/toyota-sienna-le-awd-2005-gray-N89Hlj6Tk65L3YZ7mkamJ12.html?page=6&pos=13&cur_pos=13&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=12
+2024-12-18 19:34:36,250 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/lincoln-mkz-2017-black-1neNi6gara2BalGQlXEZGavR.html?page=6&pos=15&cur_pos=15&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=14
+2024-12-18 19:34:43,441 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/toyota-venza-xle-awd-2013-black-yJn3X7a0C8eBrA9IaZLioH87.html?page=6&pos=17&cur_pos=17&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=16
+2024-12-18 19:34:53,813 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/lexus-is-250-2014-white-wRA9iuTlfdiA6UFF7YkiYWmM.html?page=6&pos=19&cur_pos=19&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=18
+2024-12-18 19:35:03,123 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-gle43-2018-blue-mzZw1hYob2F05Hv0SgPi9Fg5.html?page=6&pos=21&cur_pos=21&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=20
+2024-12-18 19:35:12,713 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/lexus-gs-300-automatic-2008-silver-wSMEjXizzuFRhg5eIYCOwolJ.html?page=6&pos=23&cur_pos=23&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=22
+2024-12-18 19:35:24,216 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/mercedes-benz-m-class-2013-white-6asT0p5e0WuOIWcZYy8nxAug.html?page=6&pos=25&cur_pos=25&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=24
+2024-12-18 19:35:33,805 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-gle-class-gle-350d-4matic-2016-gray-17D2jQ0yBFkswhcO1xX3YToy.html?page=6&pos=2&cur_pos=2&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=1
+2024-12-18 19:35:46,022 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/acura-mdx-2018-blue-xDXFP5TPKmCup8JCnDdSM04B.html?page=6&pos=4&cur_pos=4&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=3
+2024-12-18 19:35:55,343 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kaura/cars/mitsubishi-pajero-2012-black-km1FvGWmj70zlxHGLOSbCzLC.html?page=6&pos=6&cur_pos=6&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=5
+2024-12-18 19:36:08,224 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/audi-a4-2015-gray-3bi2zVXBlVU5aJZRJo2CyVNL.html?page=6&pos=8&cur_pos=8&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=7
+2024-12-18 19:36:18,756 - __main__ - INFO - Accessing listing URL: https://jiji.ng/obio-akpor/cars/lexus-rx-330-2006-gold-xhSnJ0STmyvgp2b1le6zZDqi.html?page=6&pos=10&cur_pos=10&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=9
+2024-12-18 19:36:28,757 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/lexus-gx-470-2004-black-7mOjmcLjv13jdbhS5tOCgCeq.html?page=6&pos=12&cur_pos=12&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=11
+2024-12-18 19:36:37,478 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/lexus-rx-350-2020-gold-gkVt72fyqWVt17YsuPNQh9ZE.html?page=6&pos=14&cur_pos=14&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=13
+2024-12-18 19:36:46,944 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/mercedes-benz-gle-class-amg-gle-43-4matic-2017-white-pspc3KlSMkfucyHjgqB1EXsp.html?page=6&pos=16&cur_pos=16&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=15
+2024-12-18 19:36:59,074 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/toyota-sienna-2015-silver-3PZlhXa3cDKtcG4awEuAtPpt.html?page=6&pos=18&cur_pos=18&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=17
+2024-12-18 19:37:10,144 - __main__ - INFO - Accessing listing URL: https://jiji.ng/katampe/cars/peugeot-307-2007-white-cv0GCRv5UFiO4Q8SPdd8n5iz.html?page=6&pos=20&cur_pos=20&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=19
+2024-12-18 19:37:19,849 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kosofe/cars/toyota-land-cruiser-prado-4-0-v6-dual-vvt-i-2016-black-5X7cj73abb3GscC4MF0aQDfU.html?page=6&pos=22&cur_pos=22&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=21
+2024-12-18 19:37:29,937 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/toyota-rav4-automatic-2002-silver-xpHYxpPRyLNC2m8mC1F89liG.html?page=6&pos=24&cur_pos=24&ads_per_page=25&ads_count=105057&lid=oUPSHynbjwDRspJo&indexPosition=23
+2024-12-18 19:37:42,936 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=7
+2024-12-18 19:37:45,556 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=7
+2024-12-18 19:37:45,557 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/chevrolet-spark-ls-2013-pink-xiOiyyMG6O9OP6EBcHbiCXrU.html?page=7&pos=1&cur_pos=1&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=0
+2024-12-18 19:37:56,112 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/chevrolet-cruze-lt-auto-hatchback-2017-gray-86n9KmQxB4MRpobrQISQhqKp.html?page=7&pos=3&cur_pos=3&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=2
+2024-12-18 19:38:07,912 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/toyota-sienna-2006-blue-zaD8vmEyFLK5YFvWNBmEY1Zf.html?page=7&pos=5&cur_pos=5&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=4
+2024-12-18 19:38:17,710 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/toyota-highlander-xse-awd-2024-gray-fSXE0X0Hq8qCb8X5xrvojMjX.html?page=7&pos=7&cur_pos=7&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=6
+2024-12-18 19:38:27,152 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/bmw-328i-2013-white-fT5QrklU7YSkXKHsT9x8VtoA.html?page=7&pos=9&cur_pos=9&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=8
+2024-12-18 19:38:35,355 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/ford-f-150-xlt-2013-gray-C3Je2q8ZukSg04mZalJXf1M.html?page=7&pos=11&cur_pos=11&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=10
+2024-12-18 19:38:45,483 - __main__ - INFO - Accessing listing URL: https://jiji.ng/agege/cars/mercedes-benz-e350-2012-white-nzI3BoJEdd39FIqFscalOoQo.html?page=7&pos=13&cur_pos=13&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=12
+2024-12-18 19:38:56,235 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kubwa/cars/toyota-corolla-le-2006-black-tXhMgJ7WpmxHZd94Wp3sUR93.html?page=7&pos=15&cur_pos=15&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=14
+2024-12-18 19:39:07,801 - __main__ - INFO - Accessing listing URL: https://jiji.ng/port-harcourt/cars/toyota-avalon-2013-gray-lkyz2U3RKNoJwRziHIL9mDGM.html?page=7&pos=17&cur_pos=17&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=16
+2024-12-18 19:39:17,262 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/mercedes-benz-gle-class-gle-350-2017-black-7Wo4ELwszeHNnFoFUaoXE0NG.html?page=7&pos=19&cur_pos=19&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=18
+2024-12-18 19:39:27,995 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/toyota-avalon-2014-black-5C0nrJbRMcwyJ1VFucweT1J9.html?page=7&pos=21&cur_pos=21&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=20
+2024-12-18 19:39:38,084 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/mercedes-benz-glc-class-2016-blue-17k9GE7MjE5O3uOMTZzofU4U.html?page=7&pos=23&cur_pos=23&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=22
+2024-12-18 19:39:48,346 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/honda-accord-2019-silver-BwMNAGRK84DqoQNki4NSYi65.html?page=7&pos=25&cur_pos=25&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=24
+2024-12-18 19:39:57,837 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/mercedes-benz-gle-class-2016-black-BEFFng4MPk1F0vE43S3KyZkQ.html?page=7&pos=2&cur_pos=2&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=1
+2024-12-18 19:40:05,863 - __main__ - INFO - Accessing listing URL: https://jiji.ng/yaba/cars/kia-opirus-2006-black-CywWq3J1BAD5bZAaKiwiYgtA.html?page=7&pos=4&cur_pos=4&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=3
+2024-12-18 19:40:15,845 - __main__ - INFO - Accessing listing URL: https://jiji.ng/yaba/cars/nissan-armada-4x4-le-2005-silver-wb1AHrUMgClt9gzU4aPjsNu8.html?page=7&pos=6&cur_pos=6&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=5
+2024-12-18 19:40:26,788 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kosofe/cars/mercedes-benz-gle-class-2016-black-HSCMBbneFXkH32VkBiY5DTy.html?page=7&pos=8&cur_pos=8&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=7
+2024-12-18 19:40:35,003 - __main__ - INFO - Accessing listing URL: https://jiji.ng/onitsha-north/cars/toyota-sienna-2013-red-jUxOzE9Go2nkvKkQc616QHgM.html?page=7&pos=10&cur_pos=10&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=9
+2024-12-18 19:40:43,434 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/kia-cerato-1-6-lx-automatic-2008-white-4WwHFkpvlz5eHMdG4IRXuRME.html?page=7&pos=12&cur_pos=12&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=11
+2024-12-18 19:40:51,496 - __main__ - INFO - Accessing listing URL: https://jiji.ng/jabi/cars/new-toyota-land-cruiser-2024-black-k8wQ2jJdx1oJzMDiVWjr8NLm.html?page=7&pos=14&cur_pos=14&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=13
+2024-12-18 19:41:02,523 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kubwa/cars/toyota-tundra-crewmax-2012-black-n7VOtuNHi1Z0tjbrtc6mcIDr.html?page=7&pos=16&cur_pos=16&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=15
+2024-12-18 19:41:13,201 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ado-ekiti/cars/lexus-rx-350-awd-2012-gold-geckmpcYWjqF1qrclO4dV3Ew.html?page=7&pos=18&cur_pos=18&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=17
+2024-12-18 19:41:21,648 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/honda-accord-2009-gray-69vwiF0TTdSFBTX7cIv9uSaI.html?page=7&pos=20&cur_pos=20&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=19
+2024-12-18 19:41:31,707 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/hyundai-sonata-2014-gray-tK5koOkTn3huqRIr5TdceVCy.html?page=7&pos=22&cur_pos=22&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=21
+2024-12-18 19:41:41,804 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/mercedes-benz-m-class-ml-350-4matic-2013-white-coIrFqi0oSypavjTatofmEnc.html?page=7&pos=24&cur_pos=24&ads_per_page=25&ads_count=105044&lid=ySyPsllz98pGcDDY&indexPosition=23
+2024-12-18 19:41:53,384 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=8
+2024-12-18 19:41:55,667 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=8
+2024-12-18 19:41:55,668 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/honda-pilot-2007-green-6d5UKGPGZAcvGaBo8BLJFThs.html?page=8&pos=1&cur_pos=1&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=0
+2024-12-18 19:42:07,877 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/porsche-panamera-4s-executive-awd-2016-white-ng5jvdXA5K0BQV9UnzZ2P2tU.html?page=8&pos=3&cur_pos=3&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=2
+2024-12-18 19:42:17,558 - __main__ - INFO - Accessing listing URL: https://jiji.ng/awka-south/cars/lexus-es-350-2010-gray-pe9v1gGZL23DuwtT0NvpdOwY.html?page=8&pos=5&cur_pos=5&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=4
+2024-12-18 19:42:29,168 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/hyundai-elantra-2013-blue-rN19BbtvNzSoFkI4DwEBCG97.html?page=8&pos=7&cur_pos=7&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=6
+2024-12-18 19:42:40,919 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/toyota-rav4-base-awd-2001-black-vYtmDXjmfQbNWOV0FAseQnbR.html?page=8&pos=9&cur_pos=9&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=8
+2024-12-18 19:42:52,790 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/lexus-rx-350-awd-2013-white-2AxvwuAL1jV74wzF82TwK7Tl.html?page=8&pos=11&cur_pos=11&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=10
+2024-12-18 19:43:00,419 - __main__ - INFO - Accessing listing URL: https://jiji.ng/obio-akpor/cars/land-rover-lr3-v8-se-2007-pearl-pPCcdWJYTvtT7BaBnZfRDLB2.html?page=8&pos=13&cur_pos=13&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=12
+2024-12-18 19:43:10,334 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/honda-pilot-2004-black-BGlnLX1Y0tJqNPQcuQx6wYnx.html?page=8&pos=15&cur_pos=15&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=14
+2024-12-18 19:43:18,694 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kaduna-north/cars/bmw-335i-2008-white-kF6vZTMPBBrLJaGYEnqX5gSf.html?page=8&pos=17&cur_pos=17&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=16
+2024-12-18 19:43:30,448 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ijebu-ode/cars/lexus-is-250-2008-black-uYzh3P2WnfHB3IG0UqCofbNo.html?page=8&pos=19&cur_pos=19&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=18
+2024-12-18 19:43:38,814 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/kia-sorento-2015-red-BEwOty02UnJ0Gk0Csqt0JDKm.html?page=8&pos=21&cur_pos=21&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=20
+2024-12-18 19:43:48,719 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/hyundai-sonata-2017-red-pHdycMzxkqpj046FZhE8sVrx.html?page=8&pos=23&cur_pos=23&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=22
+2024-12-18 19:44:00,283 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/toyota-camry-2010-gray-2I56pUjcqCxjPoAdqn9TyvqS.html?page=8&pos=25&cur_pos=25&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=24
+2024-12-18 19:44:11,214 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/mercedes-benz-glk-class-350-4matic-2014-red-dfd8vY9NWZmkPXOdlJkCfXeR.html?page=8&pos=2&cur_pos=2&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=1
+2024-12-18 19:44:21,496 - __main__ - INFO - Accessing listing URL: https://jiji.ng/warri-south/cars/lexus-gs-2008-black-m9CAogLEMmkGzRtn9VIypjHV.html?page=8&pos=4&cur_pos=4&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=3
+2024-12-18 19:44:32,349 - __main__ - INFO - Accessing listing URL: https://jiji.ng/gwarinpa/cars/honda-accord-sedan-ex-v-6-2011-black-rY8slZeZnABYwBw6ZKAkIHyu.html?page=8&pos=6&cur_pos=6&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=5
+2024-12-18 19:44:41,803 - __main__ - INFO - Accessing listing URL: https://jiji.ng/apapa/cars/lexus-rx-350-2011-silver-8pyo84BtqsL8WYjBvhFjpjrY.html?page=8&pos=8&cur_pos=8&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=7
+2024-12-18 19:44:52,722 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/lexus-is-200-2005-gray-xx33eCMUriKadFuvQ03DyxeQ.html?page=8&pos=10&cur_pos=10&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=9
+2024-12-18 19:45:03,212 - __main__ - INFO - Accessing listing URL: https://jiji.ng/yaba/cars/toyota-corolla-2013-silver-xfZER73xH3e1ZHczYUiFKGOK.html?page=8&pos=12&cur_pos=12&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=11
+2024-12-18 19:45:13,183 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/saturn-vue-2008-teal-b7gAoy8noDv1KGPTBwPsG9Zf.html?page=8&pos=14&cur_pos=14&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=13
+2024-12-18 19:45:21,876 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/ford-edge-sel-4dr-awd-2017-burgundy-vYdmLH78bY1gcvVDx2cjJTPT.html?page=8&pos=16&cur_pos=16&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=15
+2024-12-18 19:45:31,659 - __main__ - INFO - Accessing listing URL: https://jiji.ng/onitsha-north/cars/lexus-es-350-2010-blue-pw9RGaoVd3JNxoTvhy8GrleZ.html?page=8&pos=18&cur_pos=18&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=17
+2024-12-18 19:45:41,162 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/lexus-rx-350-2012-white-fUI0pQzZtzCkXhAJKQvxjLnT.html?page=8&pos=20&cur_pos=20&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=19
+2024-12-18 19:45:51,018 - __main__ - INFO - Accessing listing URL: https://jiji.ng/katampe/cars/toyota-yaris-1-3-vvt-i-automatic-2007-black-3AgPULVTk5Suj0hBRo5bNeRV.html?page=8&pos=22&cur_pos=22&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=21
+2024-12-18 19:46:00,239 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/toyota-highlander-xle-2022-gray-zwCwfenD6BoJbEouWrKdmGST.html?page=8&pos=24&cur_pos=24&ads_per_page=25&ads_count=105029&lid=dfcRrUal78gvLoEJ&indexPosition=23
+2024-12-18 19:46:07,325 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=9
+2024-12-18 19:46:08,468 - __main__ - INFO - Loading a total of 25 car listings from https://jiji.ng/cars?page=9
+2024-12-18 19:46:08,468 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/lexus-rx-350-2018-silver-ozUQYbcsteYsllISlxG4wt8S.html?page=9&pos=1&cur_pos=1&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=0
+2024-12-18 19:46:17,255 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/lexus-rx-350-awd-2015-brown-heKQbddNShaV062cuLTIUIZm.html?page=9&pos=3&cur_pos=3&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=2
+2024-12-18 19:46:25,572 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-2014-white-1lLmqsd7JsgDweskwUSVXaGk.html?page=9&pos=5&cur_pos=5&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=4
+2024-12-18 19:46:34,939 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/toyota-venza-awd-2011-black-BoWcfwcBvf189SwTHUoo2ySi.html?page=9&pos=7&cur_pos=7&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=6
+2024-12-18 19:46:42,702 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ojodu/cars/volvo-xc90-2016-black-326R18ImVB4crfyeG2pevVdx.html?page=9&pos=9&cur_pos=9&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=8
+2024-12-18 19:46:52,162 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/hyundai-sonata-2015-black-x6dmzN4aIWT1ocCs0x0lh0Gw.html?page=9&pos=11&cur_pos=11&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=10
+2024-12-18 19:47:00,731 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/lexus-es-350-2011-gray-BTNrpdEGvVDQ0pNYgfUlL2nT.html?page=9&pos=13&cur_pos=13&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=12
+2024-12-18 19:47:10,044 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kubwa/cars/mercedes-benz-gla-250-2020-white-8Fym112qag6W1G8jeXJhe6HQ.html?page=9&pos=15&cur_pos=15&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=14
+2024-12-18 19:47:18,606 - __main__ - INFO - Accessing listing URL: https://jiji.ng/surulere/cars/hyundai-sonata-2015-white-BWGIUYnyhvNnEwZgSv9RTx1x.html?page=9&pos=17&cur_pos=17&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=16
+2024-12-18 19:47:29,489 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kano-municipal/cars/honda-civic-2022-white-CKYi99AilWHnWEhP0T92e5A.html?page=9&pos=19&cur_pos=19&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=18
+2024-12-18 19:47:38,824 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/ford-e-350-super-duty-2006-white-wvt2447fJfPxNlGYTUDfhgc4.html?page=9&pos=21&cur_pos=21&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=20
+2024-12-18 19:47:49,661 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/toyota-camry-2011-silver-AQmZ7UQEIg4Bs4wQ9z8kIFBa.html?page=9&pos=23&cur_pos=23&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=22
+2024-12-18 19:47:57,929 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ikeja/cars/toyota-corolla-2010-gray-dR23Hk8wrjXTWwIbWArdnHBR.html?page=9&pos=25&cur_pos=25&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=24
+2024-12-18 19:48:06,414 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ijebu-ode/cars/hyundai-sonata-2015-red-b3DW8DaKMnEkjx8RnhSX4sMx.html?page=9&pos=2&cur_pos=2&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=1
+2024-12-18 19:48:18,523 - __main__ - INFO - Accessing listing URL: https://jiji.ng/alimosho/cars/toyota-rav4-3-5-limited-4x4-2010-gold-sCEzsRheHwc5zzXCY8aqCmYl.html?page=9&pos=4&cur_pos=4&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=3
+2024-12-18 19:48:32,051 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/mercedes-benz-m-class-2014-gray-JHUbUYE1vF55OUXkUK7fusn.html?page=9&pos=6&cur_pos=6&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=5
+2024-12-18 19:48:41,414 - __main__ - INFO - Accessing listing URL: https://jiji.ng/ajah/cars/mercedes-benz-gl-class-2007-black-tCtjF53ylaAuyTnSVKsbs8iN.html?page=9&pos=8&cur_pos=8&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=7
+2024-12-18 19:48:49,039 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/toyota-highlander-limited-2011-green-B3pnTc1kNW1x1ctwa4lwgMxK.html?page=9&pos=10&cur_pos=10&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=9
+2024-12-18 20:50:19,530 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:23,482 - __main__ - INFO - Accessing listing URL: https://jiji.ng/magodo/cars/toyota-highlander-xle-4x2-v6-3-5l-6cyl-8a-2017-red-zWEsdIqvpluZhEtykxLFzhOQ.html?page=9&pos=12&cur_pos=12&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=11
+2024-12-18 20:50:23,485 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:26,386 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kubwa/cars/rover-land-2012-black-zYTRaNVkibjKTmxcOkHw8Gsa.html?page=9&pos=14&cur_pos=14&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=13
+2024-12-18 20:50:26,387 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:29,024 - __main__ - INFO - Accessing listing URL: https://jiji.ng/lekki/cars/nissan-pathfinder-2014-blue-3PxXGBfvdS96v1yUSVIDxfZm.html?page=9&pos=16&cur_pos=16&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=15
+2024-12-18 20:50:29,026 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:31,205 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/mercedes-benz-c300-2015-blue-dicSSafTczo3DvPUmWF4cSkE.html?page=9&pos=18&cur_pos=18&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=17
+2024-12-18 20:50:31,207 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:34,699 - __main__ - INFO - Accessing listing URL: https://jiji.ng/isolo/cars/toyota-tacoma-trd-off-road-2017-red-pTshBFsGbK9O63iuOvd4o0VA.html?page=9&pos=20&cur_pos=20&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=19
+2024-12-18 20:50:34,699 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:39,421 - __main__ - INFO - Accessing listing URL: https://jiji.ng/kaura/cars/toyota-land-cruiser-2011-black-9Z8wx9crxAh1VWzcAF2jdBiV.html?page=9&pos=22&cur_pos=22&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=21
+2024-12-18 20:50:39,421 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:44,137 - __main__ - INFO - Accessing listing URL: https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-2017-gold-sHZPqojcwShLsTnu0txUBBQJ.html?page=9&pos=24&cur_pos=24&ads_per_page=25&ads_count=105091&lid=PVq8mdVFyx-8dnb6&indexPosition=23
+2024-12-18 20:50:44,137 - __main__ - ERROR - Error while extracting listing details: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
+2024-12-18 20:50:48,650 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=10
+2024-12-18 20:50:48,652 - __main__ - WARNING - Error while getting car listings: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+. Retrying... (3 retries left)
+2024-12-18 20:50:52,656 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=10
+2024-12-18 20:50:52,656 - __main__ - WARNING - Error while getting car listings: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+. Retrying... (2 retries left)
+2024-12-18 20:50:57,128 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=10
+2024-12-18 20:50:57,131 - __main__ - WARNING - Error while getting car listings: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+. Retrying... (1 retries left)
+2024-12-18 20:51:01,342 - __main__ - INFO - Accessing URL: https://jiji.ng/cars?page=10
+2024-12-18 20:51:01,344 - __main__ - ERROR - Error while getting car listings: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00BC34A3+25059]
+	(No symbol) [0x00B4CEA4]
+	(No symbol) [0x00A2BEC3]
+	(No symbol) [0x00A1C468]
+	(No symbol) [0x00A1C389]
+	(No symbol) [0x00A2E350]
+	(No symbol) [0x00AAAE69]
+	(No symbol) [0x00A91C96]
+	(No symbol) [0x00A63FAC]
+	(No symbol) [0x00A64F3D]
+	GetHandleVerifier [0x00EB5613+3113811]
+	GetHandleVerifier [0x00ECA2DA+3199002]
+	GetHandleVerifier [0x00EC2AB2+3168242]
+	GetHandleVerifier [0x00C63310+680016]
+	(No symbol) [0x00B557ED]
+	(No symbol) [0x00B52A98]
+	(No symbol) [0x00B52C35]
+	(No symbol) [0x00B45890]
+	BaseThreadInitThunk [0x76597BA9+25]
+	RtlInitializeExceptionChain [0x77A5C0CB+107]
+	RtlClearBits [0x77A5C04F+191]
+
