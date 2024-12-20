@@ -56,7 +56,7 @@ def configure_chrome_driver() -> webdriver.Chrome:
 def configure_firefox_driver() -> webdriver.Firefox:
     try:
         options = FirefoxOptions()
-        # options.add_argument("--headless")  # Comment this out for debugging
+        options.add_argument("--headless")  # Comment this out for debugging
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-gpu")
