@@ -86,30 +86,32 @@ def restart_driver(driver: webdriver.Chrome ) -> webdriver.Chrome:
 
 
 
-def get_car_listings(driver: webdriver.Chrome | webdriver.Firefox, url: str, retries: int = 3, backoff: int = 1) -> ResultSet[Tag]:
+def get_car_listings(driver: webdriver.Chrome, url: str, retries: int = 3, backoff: int = 1) -> ResultSet[Tag]:
     try:
         logger.info(f"Getting vehicles data from: {url}")
+        
+        driver = restart_driver(driver)
         driver.get(url)
         soup = BeautifulSoup(driver.page_source, "html.parser")
         listings = soup.select("div.masonry-item a.qa-advert-list-item")
         logger.info(f'{len(listings)} vehicles found')
         return listings
+    
     except Exception as e:
-        msg = str(e) #str(e).split('Stacktrace:')[0].upper()
+        
         if retries > 0:
             wait_time = random.uniform(backoff, backoff * 2)
-            logger.warning(f"getting car listings: {msg}")
-            logger.info(f"Retrying in {wait_time}s... ({retries} retries left)")
+            logger.info(f"get_car_listings(): retrying in {wait_time}s... ({retries} retries left)")
             time.sleep(wait_time)
+            return get_car_listings(driver, url, retries=retries -1, backoff=backoff)
         else:
-            logger.warning(f"getting car listings: {msg}")
+            logger.error(f"get_car_listings(): {str(e)}")
             return []
 
 
 
-def get_listing_details(driver: webdriver.Chrome | webdriver.Firefox, listing: Tag, listing_url: str) -> dict:
+def get_listing_details(driver: webdriver.Chrome, listing: Tag, listing_url: str, retries: int = 3, backoff: int = 1) -> dict:
 
-    time.sleep(random.uniform(2, 5))
     details = {}
 
     try:
@@ -127,6 +129,8 @@ def get_listing_details(driver: webdriver.Chrome | webdriver.Firefox, listing: T
         details['DescriptionText'] = descriptionText
         details['RegionText'] = regionText
 
+        time.sleep(random.uniform(2, 5))
+        driver = restart_driver(driver)
         driver.get(listing_url)
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
@@ -147,11 +151,19 @@ def get_listing_details(driver: webdriver.Chrome | webdriver.Firefox, listing: T
 
         details['PageURL'] = listing_url
 
-        logger.info(f"'{advertTitle}: [{len(details)} attributes found] [{listing_url}]")
+        logger.info(f"'{advertTitle}  |  {len(details)} attributes found  |  {listing_url}")
         return details
     except Exception as e:
-        logger.error(f"Error while extracting listing details: {str(e)}")
-        return {}
+        
+        if retries > 0:
+            wait_time = random.uniform(backoff, backoff * 2)
+            logger.info(f"get_listing_details(): retrying in {wait_time}s... ({retries} retries left)")
+            time.sleep(wait_time)
+            return get_listing_details(driver,listing,listing_url, retries=retries -1, backoff=backoff)
+        else:
+            logger.error(f"get_listing_details(): {str(e)}")
+            return {}
+      
 
 
 def save_to_json_file(data: list, filename: str = "data.json") -> None:
@@ -178,10 +190,9 @@ def scrape_car_prices() -> None:
 
         for page in range(1, max_pages + 1):
 
-            driver = restart_driver(driver)
             url = f"{base_url}{page}"
             listings = get_car_listings(driver, url)   
-            
+
             if not listings:
                 logger.error(f"{url} returned an empty car list")
                 if page > 500:
@@ -191,13 +202,14 @@ def scrape_car_prices() -> None:
             for listing in listings:
                 listing_url = 'https://jiji.ng' + listing['href']
                 vehicle_details = get_listing_details(driver, listing, listing_url)
-                if vehicle_details:  # Ensure dictionary is not empty
+                if vehicle_details:  
                     vehicles.append(vehicle_details)
                 time.sleep(random.uniform(2, 5))
 
             save_to_json_file(vehicles)
             vehicles_count = vehicles_count + len(vehicles)
             logger.info(f'Total vehicles processed: {vehicles_count}')
+            logger.info('============================================')
             vehicles.clear()
 
     except Exception as e:
