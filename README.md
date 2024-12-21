@@ -1,14 +1,14 @@
 Cars Information Scraper
 ==========================
 Table of Contents
-#overview
-#requirements
-#installation
-#usage
-#functionality
-#error-handling
-#logging
-#contributing
+- #overview
+- #requirements
+- #installation
+- #usage
+- #functionality
+- #error-handling
+- #logging
+- #contributing
 
 Overview
 -----------
