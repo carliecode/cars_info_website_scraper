@@ -6,7 +6,7 @@ from fake_useragent import UserAgent
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import WebDriverException, DisconnectedException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup, ResultSet, Tag
 
@@ -72,10 +72,10 @@ def configure_chrome_driver() -> webdriver.Chrome:
             options.add_argument(f'--proxy-server={proxies["http"]}')
         '''
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-        driver.set_page_load_timeout(120)
+        driver.set_page_load_timeout(50)
         return driver
     except Exception as e:
-        logger.error(f"Error in  configure_chrome_driver: {str(e)}")
+        logger.error(f"Error configuring Chrome WebDriver: {str(e)}")
         raise
 
 
@@ -99,26 +99,28 @@ def get_vehicle_tag_list(driver: webdriver.Chrome, url: str, retries: int = DEFA
         listings = soup.select("div.masonry-item a.qa-advert-list-item")
         logger.info(f'{len(listings)} vehicles found')
         return listings
-    except (WebDriverException) as e:       
+    except (WebDriverException, DisconnectedException ) as e:
+        
         if retries > 0:
             wait_time = random.uniform(backoff, backoff * 2)
             logger.info(f'WebDriver is disconnected within get_vehicle_tag_list()')
-            logger.info(f"Retrying get_vehicle_tag_list() {'again' if retries < 3 else '' } in {wait_time}s... ({retries} retries left)")
+            logger.info(f"Retrying get_vehicle_tag_list() in {wait_time}s... ({retries} retries left)")
             time.sleep(wait_time)
             driver = configure_chrome_driver()
-            result = get_vehicle_tag_list(driver, url, retries=retries -1, backoff=backoff)
-            logger.info(f"Successful *** Retrying get_vehicle_tag_list() {'again' if retries < 3 else '' } in {wait_time}s... ({retries} retries left) ***")
-            return result
+            return get_vehicle_tag_list(driver, url, retries=retries -1, backoff=backoff)
         else:
-            logger.error(f"get_vehicle_tag_list(): {str(e)}")
+            logger.error(f"get_vehicle_page_details(): {e.msg}")
             return []
-    except Exception as e:      
-        logger.error(f"Error in  get_vehicle_tag_list(): {str(e)}")
+    
+    except Exception as e:
+        
+        logger.error(f"get_vehicle_tag_list(): {e.msg}")
         return []
 
 
 
-def get_vehicle_tag_info(driver: webdriver.Chrome, listing: Tag) -> dict:
+
+def get_vehicle_page_details(driver: webdriver.Chrome, listing: Tag, listing_url: str, retries: int = DEFAULT_RETRIES, backoff: int = DEFAULT_BACKOFF) -> dict:
 
     details = {}
 
@@ -137,19 +139,6 @@ def get_vehicle_tag_info(driver: webdriver.Chrome, listing: Tag) -> dict:
         details['DescriptionText'] = descriptionText
         details['RegionText'] = regionText
 
-        return details
-    except Exception as e:
-        logger.error(f"Error in  get_vehicle_tag_info(): {str(e)}")
-        return {}
-
-
-
-def get_vehicle_page_info(driver: webdriver.Chrome, tag_info: dict, listing_url: str, retries: int = DEFAULT_RETRIES, backoff: int = DEFAULT_BACKOFF) -> dict:
-    header_info = tag_info
-    details = {}
-
-    try:
-
         time.sleep(random.uniform(2, 5))
         driver = restart_driver(driver)
         driver.get(listing_url)
@@ -167,31 +156,27 @@ def get_vehicle_page_info(driver: webdriver.Chrome, tag_info: dict, listing_url:
         attributes = soup.select("div.b-advert-attribute")
         for attr in attributes:
             key = attr.select_one("div.b-advert-attribute__key").text.strip().title().replace(' ','')
-            key = key[0].upper() + key[1:]
             value = attr.select_one("div.b-advert-attribute__value").text.strip()
             details[key] = value
 
         details['PageURL'] = listing_url
-        combined_info = header_info | details
 
-        logger.info(f"'{tag_info['AdvertTitle']}'  |  ({len(details)}) attributes found  |  {listing_url}")
-        return combined_info
-    except (WebDriverException) as e:
+        logger.info(f"'{advertTitle}'  |  {len(details)} 'attributes found'  |  {listing_url}")
+        return details
+    except (WebDriverException, DisconnectedException ) as e:
         
         if retries > 0:
             wait_time = random.uniform(backoff, backoff * 2)
-            logger.info(f'WebDriver is disconnected within get_vehicle_page_info()')
-            logger.info(f"Retrying get_vehicle_page_info() {'again' if retries < 3 else '' } in {wait_time}s... ({retries} retries left)")
+            logger.info(f'WebDriver is disconnected within get_vehicle_page_details()')
+            logger.info(f"Retrying get_vehicle_page_details() in {wait_time}s... ({retries} retries left)")
             time.sleep(wait_time)
             driver = configure_chrome_driver()
-            result = get_vehicle_page_info(driver, tag_info, listing_url, retries=retries -1, backoff=backoff)
-            logger.info(f"Successful *** Retrying get_vehicle_page_info() {'again' if retries < 3 else '' } in {wait_time}s... ({retries} retries left) ***")
-            return result
+            return get_vehicle_page_details(driver, listing, listing_url, retries=retries -1, backoff=backoff)
         else:
-            logger.error(f"gError in  get_vehicle_page_info(): {str(e)}")
+            logger.error(f"get_vehicle_page_details(): {e.msg}")
             return {}
     except Exception as e:
-        logger.error(f"Error in  get_vehicle_page_info(): {str(e)}")
+        logger.error(f"get_vehicle_page_details(): {e.msg}")
         return {}
 
       
@@ -205,7 +190,7 @@ def save_to_json_file(data: list, filename: str = "data.json") -> None:
                     writer.write(item)
         logger.info(f"Data written to {filename}")
     except Exception as e:
-        logger.error(f"Error in  save_to_json_file(): {str(e)}")
+        logger.error(f"Error saving data to file: {str(e)}")
 
 
 def scrape_car_prices() -> None:
@@ -213,46 +198,38 @@ def scrape_car_prices() -> None:
     base_url = "https://jiji.ng/cars?page="  
     max_pages = 1000  
     vehicles_count = 0
-    vehicles_data = []
-    driver = configure_chrome_driver()
+    vehicles = []
 
     try:
         
-        for page in range(1, max_pages + 1):
-            url = f"{base_url}{page}"
-            if page % 4 == 0:
-                driver.quit()
-                driver = configure_chrome_driver()
-                logger.info(f"Restarted driver at page {page}")
-            
-            tag_list = get_vehicle_tag_list(driver, url)   
+        driver = configure_chrome_driver()
 
-            if not tag_list:
+        for page in range(1, max_pages + 1):
+
+            url = f"{base_url}{page}"
+            listings = get_vehicle_tag_list(driver, url)   
+
+            if not listings:
                 logger.error(f"{url} returned an empty car list")
                 if page > 500:
                     break
                 else:
                     continue
-
-            for tag in tag_list:
-                
-                tag_info = get_vehicle_tag_info(driver, tag)
-                tag_url = 'https://jiji.ng' + tag['href']
-                vehicle_info = get_vehicle_page_info(driver, tag_info, tag_url)
-
-                if vehicle_info:  
-                    vehicles_data.append(vehicle_info)
-
+            for listing in listings:
+                listing_url = 'https://jiji.ng' + listing['href']
+                vehicle_details = get_vehicle_page_details(driver, listing, listing_url)
+                if vehicle_details:  
+                    vehicles.append(vehicle_details)
                 time.sleep(random.uniform(2, 5))
 
-            save_to_json_file(vehicles_data)
-            vehicles_count = vehicles_count + len(vehicles_data)
+            save_to_json_file(vehicles)
+            vehicles_count = vehicles_count + len(vehicles)
             logger.info(f'Total vehicles processed: {vehicles_count}')
-            logger.info('====================================================================')
-            vehicles_data.clear()
+            logger.info('============================================')
+            vehicles.clear()
 
     except Exception as e:
-        logger.error(f"Error in scrape_car_prices(): {str(e)}")
+        logger.error(f"Error in scrape_car_prices function: {str(e)}")
     finally:
         driver.quit()
         logger.info(f"The program is exiting.")
