@@ -9,12 +9,14 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.common.exceptions import WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup, ResultSet, Tag
+import os
+from datetime import datetime
 
 DEFAULT_RETRIES = 3
 DEFAULT_BACKOFF = 1
 
 
-def setup_logging(log_file='logs/app.log', level=logging.INFO):
+def setup_logging(log_file='logs/cars_info_log.log', level=logging.INFO)-> logging.Logger:
     logger = logging.getLogger(__name__)
     logger.setLevel(level)
     
@@ -164,6 +166,16 @@ def get_vehicle_page_info(driver: webdriver.Chrome, tag_info: dict, listing_url:
                 itemprop_value = element.text.strip() if element.text.strip() else 'NA'
                 details[itemprop_name] = itemprop_value
 
+        infoStatistics = soup.find('div', class_='b-advert-info-statistics b-advert-info-statistics--region')
+        infoStatistics = infoStatistics.text.strip() if infoStatistics else 'NA'
+        details['PostedTimeDescription'] = infoStatistics.split(',')[2].replace('ago','').strip()
+        
+        advertExtendedDescription = soup.find('div', class_='b-advert__description-wrapper')
+        if advertExtendedDescription:
+            advertExtendedDescription = advertExtendedDescription.find('span', class_='qa-description-text')
+            advertExtendedDescription = advertExtendedDescription.text.strip() if advertExtendedDescription else 'NA'
+            details['AdvertExtendedDescription'] = advertExtendedDescription
+
         attributes = soup.select("div.b-advert-attribute")
         for attr in attributes:
             key = attr.select_one("div.b-advert-attribute__key").text.strip().title().replace(' ','')
@@ -192,28 +204,27 @@ def get_vehicle_page_info(driver: webdriver.Chrome, tag_info: dict, listing_url:
             return {}
     except Exception as e:
         logger.error(f"Error in  get_vehicle_page_info(): {str(e)}")
-        return {}
-
-      
+        return {}     
 
 
-def save_to_json_file(data: list, filename: str = "data.json") -> None:
+def save_to_json_file(data: list, filename: str) -> None:
     try:
         with jsonlines.open(filename, mode='a') as writer:
             for item in data:
-                if item:  # Ensure dictionary is not empty
+                if item: 
                     writer.write(item)
         logger.info(f"Data written to {filename}")
     except Exception as e:
         logger.error(f"Error in  save_to_json_file(): {str(e)}")
 
 
-def scrape_car_prices() -> None:
+def main(data_file: str  = "data.json") -> None:
 
     base_url = "https://jiji.ng/cars?page="  
     max_pages = 1000  
     vehicles_count = 0
     vehicles_data = []
+
     driver = configure_chrome_driver()
 
     try:
@@ -245,7 +256,7 @@ def scrape_car_prices() -> None:
 
                 time.sleep(random.uniform(2, 5))
 
-            save_to_json_file(vehicles_data)
+            save_to_json_file(vehicles_data, data_file)
             vehicles_count = vehicles_count + len(vehicles_data)
             logger.info(f'Total vehicles processed: {vehicles_count}')
             logger.info('====================================================================')
@@ -255,7 +266,7 @@ def scrape_car_prices() -> None:
         logger.error(f"Error in scrape_car_prices(): {str(e)}")
     finally:
         driver.quit()
-        logger.info(f"The program is exiting.")
+        logger.info(f"The cars_info_agent, web scraper, is exiting.")
 
 if __name__ == "__main__":
-    scrape_car_prices()
+    main()

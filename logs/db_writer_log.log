@@ -1,0 +1,2 @@
+2024-12-23 16:01:28,510 - ERROR - File not found: data.json
+2024-12-23 16:01:28,511 - ERROR - Error writing data to the database: Could not parse SQLAlchemy URL from string '/Users/abidemi/Documents/GitHub/cars_information_scraper/data/2024-12-23.json'
