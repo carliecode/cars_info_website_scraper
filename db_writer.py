@@ -1,12 +1,12 @@
 import json
 import logging
 from datetime import datetime
-from sqlalchemy import Date, create_engine, Table, Column, Integer, String, MetaData
+from sqlalchemy import Date, create_engine, Table, Column, Integer, String, MetaData, JSON
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.dialects.postgresql import JSON
 import shutil
 import os
-import psycopg
+import psycopg2
 
 
 def setup_logging(log_file='logs/db_writer_log.log', level=logging.INFO)-> logging.Logger:
@@ -33,7 +33,6 @@ logger = setup_logging()
 engine = create_engine(db_url)
 metadata = MetaData()
 
-metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
@@ -53,19 +52,28 @@ def read_data_file(file_path: str) -> list[dict]:
 def write_to_db(json_data: list[dict], db_url: str, table_name: str) -> None:
     try:
 
-        table = Table(table_name, metadata,
-        Column('id', Integer, primary_key=True, autoincrement=True),
-        Column('car_info', JSON),
-        Column('extraction_date', Date))
-        
+        tbl = Table(
+            table_name, 
+            metadata,
+            Column('id', Integer, primary_key=True, autoincrement=True),
+            Column('url', String),
+            Column('data', JSON),
+            Column('extraction_date', Date)
+        )
+            
+       
+        tbl.create(engine, checkfirst=True)
+            
         for item in json_data:
-            existing_record = session.query(table).filter(table.c.car_info['PageURL'] == item['PageURL']).first()
+            item = json.loads(item)
+            existing_record = session.query(tbl).filter(tbl.c.url == item['PageURL']).first()
             if existing_record:
-                if existing_record.car_info['AdvertPrice'] != item['AdvertPrice']:
-                    update_stmt = table.update().where(table.c.car_info['PageURL'] == item['PageURL']).values(car_info=item, extraction_date=today_date)
+                existing_record_data = existing_record.data
+                if existing_record_data['AdvertPrice'] != item['AdvertPrice']:
+                    update_stmt = tbl.update().where(tbl.c.url == item['PageURL']).values(data=str(item), extraction_date=today_date)
                     session.execute(update_stmt)
             else:
-                insert_stmt = table.insert().values(car_info=item, extraction_date=today_date)
+                insert_stmt = tbl.insert().values(data=item, url=item['PageURL'], extraction_date=today_date)
                 session.execute(insert_stmt)
 
         session.commit()
@@ -92,7 +100,7 @@ def move_file_to_archive(file_path: str, archive_dir: str) -> None:
     except Exception as e:
         logger.error(f"Error moving file to archive: {e}")
 
-def main(con_str: str, file_to_read: str = 'data0001.json') -> None:
+def main(con_str: str, file_to_read: str) -> None:
     data = read_data_file(file_to_read)
     write_to_db(
         data, 

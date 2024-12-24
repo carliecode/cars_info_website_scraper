@@ -19,8 +19,8 @@ def create_data_file() -> str:
 def main():
 
     data_file = create_data_file()
-    # cars_info_agent.main(data_file)
-    db_writer.main('data0001.json')
+    cars_info_agent.main(data_file)
+    db_writer.main(data_file)
 
 
 if __name__ == "__main__":
