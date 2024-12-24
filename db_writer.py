@@ -39,13 +39,13 @@ session = Session()
 
 def read_data_file(file_path: str) -> list[dict]:
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            data = json.load(file)
+        data = []
+        with open(file_path, 'r', encoding='utf-8') as lines:
+            for line in lines:
+                data.append(line)
         return data
     except FileNotFoundError:
         logger.error(f"File not found: {file_path}")
-    except json.JSONDecodeError:
-        logger.error(f"Error decoding JSON from the file: {file_path}")
     except Exception as e:
         logger.error(f"An unexpected error occurred while reading the file: {e}")
     return []
@@ -92,7 +92,7 @@ def move_file_to_archive(file_path: str, archive_dir: str) -> None:
     except Exception as e:
         logger.error(f"Error moving file to archive: {e}")
 
-def main(con_str: str, file_to_read: str = 'data.json') -> None:
+def main(con_str: str, file_to_read: str = 'data0001.json') -> None:
     data = read_data_file(file_to_read)
     write_to_db(
         data, 
