@@ -9,6 +9,9 @@ import os
 import psycopg2
 
 
+db_url = "postgresql://postgres:postgres@localhost:5432/postgres"
+
+
 def setup_logging(log_file='logs/db_writer_log.log', level=logging.INFO)-> logging.Logger:
     logger = logging.getLogger(__name__)
     logger.setLevel(level)
@@ -24,8 +27,6 @@ def setup_logging(log_file='logs/db_writer_log.log', level=logging.INFO)-> loggi
     logger.addHandler(stream_handler)
     return logger
 
-
-db_url = "postgresql://postgres:postgres@localhost:5432/postgres"
 
 today_date = datetime.today().date()
 logger = setup_logging()
@@ -100,11 +101,11 @@ def move_file_to_archive(file_path: str, archive_dir: str) -> None:
     except Exception as e:
         logger.error(f"Error moving file to archive: {e}")
 
-def main(con_str: str, file_to_read: str) -> None:
+def main(file_to_read: str) -> None:
     data = read_data_file(file_to_read)
     write_to_db(
         data, 
-        db_url=con_str,
+        db_url=db_url,
         table_name='src_cars_information')
     move_file_to_archive(file_to_read, 'data/archive')
 

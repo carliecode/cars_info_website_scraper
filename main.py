@@ -4,6 +4,9 @@ from datetime import datetime
 import os
 
 
+db_url = "postgresql://postgres:postgres@localhost:5432/postgres"
+
+
 def create_data_file() -> str:
     data_folder = os.path.join(os.getcwd(), 'data')
     os.makedirs(data_folder, exist_ok=True)

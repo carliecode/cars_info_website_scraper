@@ -65,6 +65,7 @@ def configure_chrome_driver() -> webdriver.Chrome:
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--enable-unsafe-swiftshader")
+        options.add_argument('--disable-devtools')
 
         # Rotate User-Agent for every request
         options.add_argument(f"user-agent={get_random_user_agent()}")
@@ -134,10 +135,10 @@ def get_vehicle_tag_info(driver: webdriver.Chrome, listing: Tag) -> dict:
         regionText = listing.find('span', class_='b-list-advert__region__text')
         regionText = regionText.text.strip() if regionText else 'NA'
 
-        details['AdvertPrice'] = advertPrice
-        details['AdvertTitle'] = advertTitle
-        details['DescriptionText'] = descriptionText
-        details['RegionText'] = regionText
+        details['AdvertPrice'] = advertPrice.replace('₦','').strip()
+        details['AdvertTitle'] = advertTitle.strip()
+        details['DescriptionText'] = descriptionText.strip()
+        details['RegionText'] = regionText.strip()
 
         return details
     except Exception as e:
