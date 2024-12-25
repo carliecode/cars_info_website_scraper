@@ -176,3 +176,576 @@
 2024-12-25 08:13:47,737 - INFO - 'Toyota Corolla 2017 Silver'  |  (21) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-corolla-2017-silver-ys145cfLtFJ0ujK3XQTZky3Y.html?page=9&pos=25&cur_pos=25&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=24
 2024-12-25 08:13:57,617 - INFO - 'Toyota Venza 2010 Silver'  |  (9) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-venza-2010-silver-nkg1xZD0DHrXvDypaVnEkByG.html?page=9&pos=2&cur_pos=2&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=1
 2024-12-25 08:14:06,970 - INFO - 'Toyota Venza 2010 Silver'  |  (9) attributes found  |  https://jiji.ng/kaduna-north/cars/toyota-venza-2010-silver-45bBdWE2q7NNwKyzaNzEfcBH.html?page=9&pos=4&cur_pos=4&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=3
+2024-12-25 08:14:17,975 - INFO - 'Hyundai Sonata Limited 2018 Silver'  |  (20) attributes found  |  https://jiji.ng/garki-ii/cars/hyundai-sonata-limited-2018-silver-drOs0kGQCD0ZmXWsKcx1V93f.html?page=9&pos=6&cur_pos=6&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=5
+2024-12-25 08:14:26,221 - INFO - 'Lexus ES 350 2011 Gray'  |  (15) attributes found  |  https://jiji.ng/gwarinpa/cars/lexus-es-350-2011-gray-5gTLO07ROz0JsYm3UvbCGaJe.html?page=9&pos=8&cur_pos=8&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=7
+2024-12-25 08:14:35,480 - INFO - 'Toyota Camry 2008'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-camry-2008-ywEWh6oOOeSQUwy6ljRHIu8B.html?page=9&pos=10&cur_pos=10&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=9
+2024-12-25 08:14:42,404 - INFO - 'Mercedes-Benz C300 2015 Black'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-c300-2015-black-ap8aNxkeFxBVUXDfArvqTIPZ.html?page=9&pos=12&cur_pos=12&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=11
+2024-12-25 08:14:52,329 - INFO - 'Toyota Camry 2004 Gray'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2004-gray-xjbSpZhS7xfHo2RHzlCTOL7q.html?page=9&pos=14&cur_pos=14&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=13
+2024-12-25 08:15:01,751 - INFO - 'Hyundai Elantra 2014 Black'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/hyundai-elantra-2014-black-dvVkeKSDqjfHIzO1AsD5enJW.html?page=9&pos=16&cur_pos=16&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=15
+2024-12-25 08:15:10,880 - INFO - 'Land Rover Range Rover 5.0L Supercharged LWB 2018 Green'  |  (14) attributes found  |  https://jiji.ng/magodo/cars/land-rover-range-rover-5-0l-supercharged-lwb-2018-green-g1hsrSE3Q9eBJgQEIZzxZAop.html?page=9&pos=18&cur_pos=18&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=17
+2024-12-25 08:15:20,390 - INFO - 'Toyota Venza XLE AWD 2013 Gray'  |  (17) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-venza-xle-awd-2013-gray-zZP4ZHeFDusmgcu7thwBR0eF.html?page=9&pos=20&cur_pos=20&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=19
+2024-12-25 08:15:29,972 - INFO - 'Jeep Wrangler Sport 4x4 2020 Black'  |  (21) attributes found  |  https://jiji.ng/isolo/cars/jeep-wrangler-sport-4x4-2020-black-6aOjyhkkAogokSdPd3ceQSr2.html?page=9&pos=22&cur_pos=22&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=21
+2024-12-25 08:15:38,173 - INFO - 'Mercedes-Benz GLA-Class 2016 Gray'  |  (17) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-gla-class-2016-gray-kIxJNnd90l9U5C6PB8e8L8Mg.html?page=9&pos=24&cur_pos=24&ads_per_page=25&ads_count=101489&lid=ybDg4Tg78fK3C4yp&indexPosition=23
+2024-12-25 08:15:42,367 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 08:15:42,367 - INFO - Total vehicles processed: 150
+2024-12-25 08:15:42,367 - INFO - ====================================================================
+2024-12-25 08:15:42,368 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=10
+2024-12-25 08:15:45,116 - INFO - 25 vehicles found
+2024-12-25 08:15:50,216 - INFO - 'Toyota Camry 2013 Silver'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2013-silver-2HsUQn3fsUtxVPm9Tx3qAtvh.html?page=10&pos=1&cur_pos=1&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=0
+2024-12-25 08:15:57,009 - INFO - 'Lexus ES 350 2011 White'  |  (13) attributes found  |  https://jiji.ng/ogba/cars/lexus-es-350-2011-white-cqohIn2VMpZmzZ8MxlJitm2Y.html?page=10&pos=3&cur_pos=3&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=2
+2024-12-25 08:16:06,921 - INFO - 'Mercedes-Benz C300 2011 Red'  |  (10) attributes found  |  https://jiji.ng/oredo/cars/mercedes-benz-c300-2011-red-8wfYF6GtSS6T4JnhqraPLDc8.html?page=10&pos=5&cur_pos=5&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=4
+2024-12-25 08:16:16,545 - INFO - 'Lexus ES 350 FWD 2016 Silver'  |  (19) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/lexus-es-350-fwd-2016-silver-uwKTi8cEKe2khqWgAxTquD8.html?page=10&pos=7&cur_pos=7&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=6
+2024-12-25 08:16:24,308 - INFO - 'Mercedes-Benz C300 2011 Black'  |  (20) attributes found  |  https://jiji.ng/ogba/cars/mercedes-benz-c300-2011-black-d667Eh35Rrk6ak65IH5aDy8g.html?page=10&pos=9&cur_pos=9&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=8
+2024-12-25 08:16:32,791 - INFO - 'Lexus IS 250 4WD 2015 Gray'  |  (20) attributes found  |  https://jiji.ng/ikeja/cars/lexus-is-250-4wd-2015-gray-aq6cVyiwpAZNs7o8fomt6kZU.html?page=10&pos=11&cur_pos=11&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=10
+2024-12-25 08:16:40,323 - INFO - 'Toyota Highlander 2012 Silver'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-highlander-2012-silver-hvQmHrHpwTKGX3LFkQ60wjW.html?page=10&pos=13&cur_pos=13&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=12
+2024-12-25 08:16:49,486 - INFO - 'Toyota Corolla 2012 Gray'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2012-gray-uffFqFWWAb6rhGo2Vi2RRaZA.html?page=10&pos=15&cur_pos=15&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=14
+2024-12-25 08:16:59,561 - INFO - 'Mercedes-Benz GLK-Class 350 4MATIC 2014 White'  |  (19) attributes found  |  https://jiji.ng/ojodu/cars/mercedes-benz-glk-class-350-4matic-2014-white-8kXL0a3SHqRJcetsCK4353uZ.html?page=10&pos=17&cur_pos=17&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=16
+2024-12-25 08:17:06,825 - INFO - 'Audi A7 3.0 TSI 2012 Blue'  |  (20) attributes found  |  https://jiji.ng/garki-ii/cars/audi-a7-3-0-tsi-2012-blue-rKtUHtotW01zIbfBMGjCszEu.html?page=10&pos=19&cur_pos=19&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=18
+2024-12-25 08:17:15,558 - INFO - 'Toyota Corolla LE 2007 Gray'  |  (20) attributes found  |  https://jiji.ng/ogba/cars/toyota-corolla-le-2007-gray-oPHUMMogg8iTcuZjUkxkSGcI.html?page=10&pos=21&cur_pos=21&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=20
+2024-12-25 08:17:23,972 - INFO - 'Mazda CX-9 2012 Blue'  |  (13) attributes found  |  https://jiji.ng/ikeja/cars/mazda-cx-9-2012-blue-x9veSzm7aq8wuSF91Q64Lvt0.html?page=10&pos=23&cur_pos=23&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=22
+2024-12-25 08:17:32,760 - INFO - 'Toyota Sienna LE AWD 2006 Blue'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-sienna-le-awd-2006-blue-fZxuHejzmiFdb3ZjcueLfKwv.html?page=10&pos=25&cur_pos=25&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=24
+2024-12-25 08:17:41,666 - INFO - 'Toyota Corolla 2013 Blue'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2013-blue-nGgiOy8p3NvhDSVLMncWefKO.html?page=10&pos=2&cur_pos=2&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=1
+2024-12-25 08:17:50,314 - INFO - 'Toyota C-HR Limited FWD 2019 Silver'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/toyota-c-hr-limited-fwd-2019-silver-Cs4kxMB1fDWfWeTWEY7SBahZ.html?page=10&pos=4&cur_pos=4&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=3
+2024-12-25 08:17:57,314 - INFO - 'Toyota Highlander SE 4x4 V6 (3.5L 6cyl 8A) 2018 White'  |  (21) attributes found  |  https://jiji.ng/garki-ii/cars/toyota-highlander-se-4x4-v6-3-5l-6cyl-8a-2018-white-sjqq0dMq0NH8ZdESfIubt7HJ.html?page=10&pos=6&cur_pos=6&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=5
+2024-12-25 08:18:07,306 - INFO - 'Toyota Sienna 2015 Red'  |  (21) attributes found  |  https://jiji.ng/katampe/cars/toyota-sienna-2015-red-8BtF2MSzK9b5PQga8eeg5WR7.html?page=10&pos=8&cur_pos=8&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=7
+2024-12-25 08:18:18,757 - INFO - 'Hyundai Sonata SE 2017 Black'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/hyundai-sonata-se-2017-black-rBh95aL4gdyOxMjdWNgzo1GN.html?page=10&pos=10&cur_pos=10&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=9
+2024-12-25 08:18:29,032 - INFO - 'Toyota Corolla 2015'  |  (20) attributes found  |  https://jiji.ng/ikeja/cars/toyota-corolla-2015-11V8u9WSTRVucc6oRA3QK842.html?page=10&pos=12&cur_pos=12&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=11
+2024-12-25 08:18:38,253 - INFO - 'Lexus ES 350 2010 Black'  |  (12) attributes found  |  https://jiji.ng/ogba/cars/lexus-es-350-2010-black-sIlodDd03lKnYuy4duPaoES0.html?page=10&pos=14&cur_pos=14&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=13
+2024-12-25 08:18:46,518 - INFO - 'Toyota Camry 2000 Gold'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2000-gold-dM392Kv0RGhMzgXIhGLhF5zv.html?page=10&pos=16&cur_pos=16&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=15
+2024-12-25 08:18:53,444 - INFO - 'Toyota Venza 2010 Black'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-venza-2010-black-8gvmuttUtx4og3xgi2Ksv4Tp.html?page=10&pos=18&cur_pos=18&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=17
+2024-12-25 08:19:01,590 - INFO - 'Toyota Corolla 1.6 VVT-i 2006 Gray'  |  (21) attributes found  |  https://jiji.ng/dutse/cars/toyota-corolla-1-6-vvt-i-2006-gray-p0KBQ5SdZnGwYx49WF9cUUPp.html?page=10&pos=20&cur_pos=20&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=19
+2024-12-25 08:19:08,527 - INFO - 'Toyota Corolla 2005 Red'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2005-red-uAfTugY2m7LTCjR21pJtIauG.html?page=10&pos=22&cur_pos=22&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=21
+2024-12-25 08:19:14,931 - INFO - 'Toyota Corolla 2012 Red'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-corolla-2012-red-7W0bsOakidZs8s3dndSA1H3a.html?page=10&pos=24&cur_pos=24&ads_per_page=25&ads_count=101484&lid=-8AQC5sI7S0ilote&indexPosition=23
+2024-12-25 08:19:18,634 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 08:19:18,635 - INFO - Total vehicles processed: 175
+2024-12-25 08:19:18,635 - INFO - ====================================================================
+2024-12-25 08:19:18,636 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=11
+2024-12-25 08:19:19,731 - INFO - 25 vehicles found
+2024-12-25 08:19:26,130 - INFO - 'Lexus RX 350 2007 Black'  |  (12) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/lexus-rx-350-2007-black-prGScjr7e8dUZlQugkYqtBHU.html?page=11&pos=1&cur_pos=1&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=0
+2024-12-25 08:19:34,966 - INFO - 'Toyota Camry 2017 Black'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-camry-2017-black-cM7Pw3QnJez1KBeSosblOCk5.html?page=11&pos=3&cur_pos=3&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=2
+2024-12-25 08:19:43,908 - INFO - 'Toyota Venza 2012 Black'  |  (13) attributes found  |  https://jiji.ng/magodo/cars/toyota-venza-2012-black-whgkyOtV4DbvThVp5ChNQ6Ny.html?page=11&pos=5&cur_pos=5&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=4
+2024-12-25 08:19:53,269 - INFO - 'Mercedes-Benz GLC-Class 2016 Burgundy'  |  (16) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-glc-class-2016-burgundy-C8qzbFtPyatUbfKkWBFWF7HN.html?page=11&pos=7&cur_pos=7&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=6
+2024-12-25 08:20:01,011 - INFO - 'New Wuling Bingo 2024 Off white'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/new-wuling-bingo-2024-off-white-tHbFWwM2Sz7sFQzXfXRNLvIB.html?page=11&pos=9&cur_pos=9&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=8
+2024-12-25 08:20:10,556 - INFO - 'Lexus IS 250 2008 Gray'  |  (19) attributes found  |  https://jiji.ng/ogba/cars/lexus-is-250-2008-gray-nHcNEHIos81ahfEd7wecVpR5.html?page=11&pos=11&cur_pos=11&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=10
+2024-12-25 08:20:21,865 - INFO - 'Lexus RX 350 2013 White'  |  (14) attributes found  |  https://jiji.ng/ikeja/cars/lexus-rx-350-2013-white-3JfhlJ4bJSntvKZds4lZ6t9H.html?page=11&pos=13&cur_pos=13&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=12
+2024-12-25 08:20:30,022 - INFO - 'Toyota RAV4 SE AWD (2.5L 4cyl 6A) 2017 Red'  |  (20) attributes found  |  https://jiji.ng/garki-ii/cars/toyota-rav4-se-awd-2-5l-4cyl-6a-2017-red-n8egAoLkTkyERs244E5CmjS7.html?page=11&pos=15&cur_pos=15&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=14
+2024-12-25 08:20:41,231 - INFO - 'Toyota Venza 2010 Brown'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-venza-2010-brown-JNbCW9sd8p0GzNl4NKuSL4c.html?page=11&pos=17&cur_pos=17&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=16
+2024-12-25 08:20:48,940 - INFO - 'Ford Edge 2012 Silver'  |  (20) attributes found  |  https://jiji.ng/ikeja/cars/ford-edge-2012-silver-hsSvezUL3YKojPTFf2rEBvcG.html?page=11&pos=19&cur_pos=19&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=18
+2024-12-25 08:20:58,502 - INFO - 'Mercedes-Benz GLE-Class AMG GLE 43 4MATIC 2018 Gray'  |  (21) attributes found  |  https://jiji.ng/gwarinpa/cars/mercedes-benz-gle-class-amg-gle-43-4matic-2018-gray-bvmSVA1lml2qoHbewgaErx7X.html?page=11&pos=21&cur_pos=21&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=20
+2024-12-25 08:21:07,062 - INFO - 'Toyota Highlander 2007 Red'  |  (14) attributes found  |  https://jiji.ng/ejigbo/cars/toyota-highlander-2007-red-49UwbswnMJEFBwCJvAZS7zCk.html?page=11&pos=23&cur_pos=23&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=22
+2024-12-25 08:21:16,829 - INFO - 'Mercedes-Benz C350 C 350 4MATIC AWD 2013 Black'  |  (14) attributes found  |  https://jiji.ng/central-business-district/cars/mercedes-benz-c350-c-350-4matic-awd-2013-black-ypSN4gtuvRuuyw78oOYaR4nR.html?page=11&pos=25&cur_pos=25&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=24
+2024-12-25 08:21:25,717 - INFO - 'Toyota Corolla 2017 Black'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-corolla-2017-black-dxs9DaKyp8IrbKJroYImXnhc.html?page=11&pos=2&cur_pos=2&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=1
+2024-12-25 08:21:36,533 - INFO - 'Lexus RX 350 2012 Gray'  |  (13) attributes found  |  https://jiji.ng/ikeja/cars/lexus-rx-350-2012-gray-a5XMV7HQ6r0XfGmITaEFUnuy.html?page=11&pos=4&cur_pos=4&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=3
+2024-12-25 08:21:45,109 - INFO - 'Toyota FJ Cruiser 2008 Black'  |  (12) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-fj-cruiser-2008-black-5KQU6CRLK0kCJRFYwTeQdFoN.html?page=11&pos=6&cur_pos=6&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=5
+2024-12-25 08:21:52,592 - INFO - 'Toyota Camry 2017 Gray'  |  (14) attributes found  |  https://jiji.ng/ojodu/cars/toyota-camry-2017-gray-w3M5wqmW2JR7COxIXoTnVmx0.html?page=11&pos=8&cur_pos=8&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=7
+2024-12-25 08:22:01,329 - INFO - 'Mercedes-Benz E350 2014 White'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/mercedes-benz-e350-2014-white-s5dUax0QrUKHagYfYK72llSg.html?page=11&pos=10&cur_pos=10&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=9
+2024-12-25 08:22:11,002 - INFO - 'Lexus RX 330 4WD 2005 Black'  |  (21) attributes found  |  https://jiji.ng/wuse-ii/cars/lexus-rx-330-4wd-2005-black-CcL94D4bhGMA2RMcbpoeAE5.html?page=11&pos=12&cur_pos=12&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=11
+2024-12-25 08:22:19,979 - INFO - 'Toyota Venza AWD 2011 Silver'  |  (21) attributes found  |  https://jiji.ng/magodo/cars/toyota-venza-awd-2011-silver-yZyeA66H0dhgwlJcyWBQkCeM.html?page=11&pos=14&cur_pos=14&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=13
+2024-12-25 08:22:27,318 - INFO - 'Mercedes-Benz GLE-Class 2019 Off white'  |  (13) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-gle-class-2019-off-white-CzTUE0fSJ3fhnxZsVKdTaQl1.html?page=11&pos=16&cur_pos=16&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=15
+2024-12-25 08:22:38,281 - INFO - 'Mercedes-Benz CLS 2008 Gray'  |  (10) attributes found  |  https://jiji.ng/gwarinpa/cars/mercedes-benz-cls-2008-gray-4UuJdVPk8aZ8WNmh2upkWXuR.html?page=11&pos=18&cur_pos=18&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=17
+2024-12-25 08:22:46,792 - INFO - 'Mercedes-Benz C300 2018 Black'  |  (12) attributes found  |  https://jiji.ng/gwarinpa/cars/mercedes-benz-c300-2018-black-cK4UZz4mWWb3qcezSuvs0O7T.html?page=11&pos=20&cur_pos=20&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=19
+2024-12-25 08:22:53,897 - INFO - 'Ford Explorer 2012 Black'  |  (19) attributes found  |  https://jiji.ng/garki-ii/cars/ford-explorer-2012-black-cEsMcqwNhDdjNUFjGVwsMt3e.html?page=11&pos=22&cur_pos=22&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=21
+2024-12-25 08:23:01,210 - INFO - 'Toyota C-HR 2017 Gray'  |  (14) attributes found  |  https://jiji.ng/ejigbo/cars/toyota-c-hr-2017-gray-cYUKyxgPqRHYxQfGWYL1V1C4.html?page=11&pos=24&cur_pos=24&ads_per_page=25&ads_count=101484&lid=UFurXj6AQY0PjadM&indexPosition=23
+2024-12-25 08:23:03,683 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 08:23:03,684 - INFO - Total vehicles processed: 200
+2024-12-25 08:23:03,685 - INFO - ====================================================================
+2024-12-25 08:23:13,811 - INFO - Restarted driver at page 12
+2024-12-25 08:23:13,811 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=12
+2024-12-25 08:23:16,277 - INFO - 25 vehicles found
+2024-12-25 08:23:21,478 - INFO - 'Toyota Venza 2011 White'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-venza-2011-white-tBHrdYVSkIcwInseroybqTvQ.html?page=12&pos=1&cur_pos=1&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=0
+2024-12-25 08:23:30,568 - INFO - 'Toyota Highlander 2018 White'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-2018-white-uVUSI9PfHBE6n4gBkgb7GbfU.html?page=12&pos=3&cur_pos=3&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=2
+2024-12-25 08:23:39,944 - INFO - 'Toyota Avalon 2013 Gray'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/toyota-avalon-2013-gray-5VaA0jh9thrHf5fLM794tmxj.html?page=12&pos=5&cur_pos=5&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=4
+2024-12-25 08:23:49,316 - INFO - 'Toyota Camry 2013 Gray'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-camry-2013-gray-uaQZusQAdalxv0clYWoOVcpP.html?page=12&pos=7&cur_pos=7&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=6
+2024-12-25 08:23:59,577 - INFO - 'Nissan Armada 2005 Silver'  |  (10) attributes found  |  https://jiji.ng/oredo/cars/nissan-armada-2005-silver-txyqEPXCjP0DNHRkuQZXY5yU.html?page=12&pos=9&cur_pos=9&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=8
+2024-12-25 08:24:10,631 - INFO - 'Toyota Highlander Limited Platinum 2019 Black'  |  (15) attributes found  |  https://jiji.ng/central-business-district/cars/toyota-highlander-limited-platinum-2019-black-CxoaBoNDfBOFLIC9oUFwH0oS.html?page=12&pos=11&cur_pos=11&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=10
+2024-12-25 08:24:19,745 - INFO - 'Honda Accord 2015 Gray'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/honda-accord-2015-gray-FwbFReeulYxaQkcej7igBEU.html?page=12&pos=13&cur_pos=13&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=12
+2024-12-25 08:24:31,063 - INFO - 'Mercedes-Benz M Class ML 350 4Matic 2012 Burgundy'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/mercedes-benz-m-class-ml-350-4matic-2012-burgundy-7v00sqGad7GZ1k7UbW2Cuikc.html?page=12&pos=15&cur_pos=15&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=14
+2024-12-25 08:24:38,866 - INFO - 'Toyota Avanza 2011 Gray'  |  (14) attributes found  |  https://jiji.ng/lekki/cars/toyota-avanza-2011-gray-aTW1dHMUd0ySrnDLYAdBeMLW.html?page=12&pos=17&cur_pos=17&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=16
+2024-12-25 08:24:48,923 - INFO - 'Toyota Corolla 1.8 CE 2008 Black'  |  (19) attributes found  |  https://jiji.ng/ikeja/cars/toyota-corolla-1-8-ce-2008-black-C5t1Y1h4sFERyXhRTIMa680n.html?page=12&pos=19&cur_pos=19&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=18
+2024-12-25 08:24:56,266 - INFO - 'Mercedes-Benz GLK-Class 2015 White'  |  (20) attributes found  |  https://jiji.ng/wuse/cars/mercedes-benz-glk-class-2015-white-33RKvN6a7ACMl78qROCctSi7.html?page=12&pos=21&cur_pos=21&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=20
+2024-12-25 08:25:05,334 - INFO - 'New Toyota Hilux 2023 Black'  |  (11) attributes found  |  https://jiji.ng/maryland/cars/new-toyota-hilux-2023-black-zwnCsO8pirBbMoWTQdLYie6W.html?page=12&pos=23&cur_pos=23&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=22
+2024-12-25 08:25:16,607 - INFO - 'Mercedes-Benz GLS-Class GLS450 4Matic 2017 White'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-gls-class-gls450-4matic-2017-white-i2fymmoqcFnbyKAXKRsgL1TH.html?page=12&pos=25&cur_pos=25&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=24
+2024-12-25 08:25:24,947 - INFO - 'Toyota Camry 2013 Black'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2013-black-1uCszMzCjzSJ1wvhdWz4dVnv.html?page=12&pos=2&cur_pos=2&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=1
+2024-12-25 08:25:35,430 - INFO - 'Toyota Corolla 2011 Gold'  |  (22) attributes found  |  https://jiji.ng/osogbo/cars/toyota-corolla-2011-gold-jGEfiSOaEx7IQWHfG2P5uFLv.html?page=12&pos=4&cur_pos=4&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=3
+2024-12-25 08:25:44,814 - INFO - 'Mazda CX-9 2014 Black'  |  (19) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/mazda-cx-9-2014-black-oN6Vk4XHS9CyalKPCooMk9fB.html?page=12&pos=6&cur_pos=6&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=5
+2024-12-25 08:25:51,086 - INFO - 'Kia Optima 2010 Black'  |  (10) attributes found  |  https://jiji.ng/oredo/cars/kia-optima-2010-black-7VX3O8cPsOG9Pvbq4k7DBiyR.html?page=12&pos=8&cur_pos=8&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=7
+2024-12-25 08:26:01,649 - INFO - 'Mercedes-Benz GLE-Class GLE 350 4MATIC 2020 White'  |  (21) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-gle-class-gle-350-4matic-2020-white-phWtzSvnEgXZ53KUB2iUp7GM.html?page=12&pos=10&cur_pos=10&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=9
+2024-12-25 08:26:08,594 - INFO - 'Nissan X-Trail 2.0 Hybrid FWD 2015 Blue'  |  (20) attributes found  |  https://jiji.ng/ogba/cars/nissan-x-trail-2-0-hybrid-fwd-2015-blue-yJUxHwKi69NwTKtEY2LN3nwU.html?page=12&pos=12&cur_pos=12&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=11
+2024-12-25 08:26:16,747 - INFO - 'Toyota HiAce 2010 White'  |  (9) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-hiace-2010-white-8jcCBUOnGPSd95Fl0y0xmssZ.html?page=12&pos=14&cur_pos=14&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=13
+2024-12-25 08:26:24,178 - INFO - 'Lexus RX 350 2018 White'  |  (12) attributes found  |  https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-2018-white-oNcjQxxuzAemvThTYMlXJKvL.html?page=12&pos=16&cur_pos=16&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=15
+2024-12-25 08:26:33,563 - INFO - 'Toyota Tundra 2014 Gold'  |  (11) attributes found  |  https://jiji.ng/oredo/cars/toyota-tundra-2014-gold-8E8OocQGQgF4SUROMwy0rcCR.html?page=12&pos=18&cur_pos=18&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=17
+2024-12-25 08:26:41,751 - INFO - 'Toyota Highlander XLE V6 4x4 (3.5L 6cyl 6A) 2016 Gray'  |  (19) attributes found  |  https://jiji.ng/ojodu/cars/toyota-highlander-xle-v6-4x4-3-5l-6cyl-6a-2016-gray-cDe454J32nzXdhGiq5zRE5qa.html?page=12&pos=20&cur_pos=20&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=19
+2024-12-25 08:26:49,104 - INFO - 'Hyundai Sonata 2017 Red'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/hyundai-sonata-2017-red-oUsAHJVQy5dLHXxgGhAMO7rc.html?page=12&pos=22&cur_pos=22&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=21
+2024-12-25 08:26:55,978 - INFO - 'Kia K5 2022 Black'  |  (13) attributes found  |  https://jiji.ng/magodo/cars/kia-k5-2022-black-fdgqdw5LRcIMCkTOWegDdUsw.html?page=12&pos=24&cur_pos=24&ads_per_page=25&ads_count=101477&lid=7tfjHxVa_X1LArIW&indexPosition=23
+2024-12-25 08:26:59,756 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 08:26:59,757 - INFO - Total vehicles processed: 225
+2024-12-25 08:26:59,758 - INFO - ====================================================================
+2024-12-25 08:26:59,759 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=13
+2024-12-25 08:27:01,428 - INFO - 25 vehicles found
+2024-12-25 08:27:07,414 - INFO - 'Toyota Corolla 2017 Silver'  |  (21) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-corolla-2017-silver-ys145cfLtFJ0ujK3XQTZky3Y.html?page=13&pos=1&cur_pos=1&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=0
+2024-12-25 08:27:17,916 - INFO - 'Toyota Camry 2016 White'  |  (21) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-camry-2016-white-pWhdzymQkPMPXA6BQMVhs1gs.html?page=13&pos=3&cur_pos=3&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=2
+2024-12-25 08:27:25,816 - INFO - 'Lexus IS 250 4WD 2015 Gray'  |  (20) attributes found  |  https://jiji.ng/ikeja/cars/lexus-is-250-4wd-2015-gray-aq6cVyiwpAZNs7o8fomt6kZU.html?page=13&pos=5&cur_pos=5&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=4
+2024-12-25 08:27:35,432 - INFO - 'Toyota Sienna 2015 Red'  |  (21) attributes found  |  https://jiji.ng/katampe/cars/toyota-sienna-2015-red-8BtF2MSzK9b5PQga8eeg5WR7.html?page=13&pos=7&cur_pos=7&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=6
+2024-12-25 08:27:44,422 - INFO - 'Toyota Camry 2009 Gray'  |  (20) attributes found  |  https://jiji.ng/surulere/cars/toyota-camry-2009-gray-3HtyHguXqG5FplozYIJZsvRZ.html?page=13&pos=9&cur_pos=9&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=8
+2024-12-25 08:27:54,613 - INFO - 'Mercedes-Benz C300 2012 Gray'  |  (21) attributes found  |  https://jiji.ng/isolo/cars/mercedes-benz-c300-2012-gray-rKAgIvzvJcIib4U2SoY2ZtXZ.html?page=13&pos=11&cur_pos=11&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=10
+2024-12-25 08:28:02,337 - INFO - 'Toyota Venza 2010 Black'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-venza-2010-black-8gvmuttUtx4og3xgi2Ksv4Tp.html?page=13&pos=13&cur_pos=13&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=12
+2024-12-25 08:28:09,683 - INFO - 'Toyota Corolla 2012 Gray'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2012-gray-uffFqFWWAb6rhGo2Vi2RRaZA.html?page=13&pos=15&cur_pos=15&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=14
+2024-12-25 08:28:18,256 - INFO - 'Toyota Camry 3.5 LE 2008 Silver'  |  (17) attributes found  |  https://jiji.ng/ikeja/cars/toyota-camry-3-5-le-2008-silver-wQA6n51VUe9ieHgvjPvZznZZ.html?page=13&pos=17&cur_pos=17&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=16
+2024-12-25 08:28:25,059 - INFO - 'Toyota Venza 2012 Black'  |  (13) attributes found  |  https://jiji.ng/magodo/cars/toyota-venza-2012-black-whgkyOtV4DbvThVp5ChNQ6Ny.html?page=13&pos=19&cur_pos=19&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=18
+2024-12-25 08:28:32,880 - INFO - 'Toyota Corolla 1.6 VVT-i 2006 Gray'  |  (21) attributes found  |  https://jiji.ng/dutse/cars/toyota-corolla-1-6-vvt-i-2006-gray-p0KBQ5SdZnGwYx49WF9cUUPp.html?page=13&pos=21&cur_pos=21&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=20
+2024-12-25 08:28:42,623 - INFO - 'Toyota Corolla 2012 Red'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-corolla-2012-red-7W0bsOakidZs8s3dndSA1H3a.html?page=13&pos=23&cur_pos=23&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=22
+2024-12-25 08:30:37,404 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:30:37,433 - INFO - Retrying get_vehicle_page_info()  in 1.5049551197946007s... (3 retries left)
+2024-12-25 08:30:47,022 - INFO - 'Lexus RX 350 2007 Black'  |  (12) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/lexus-rx-350-2007-black-prGScjr7e8dUZlQugkYqtBHU.html?page=13&pos=25&cur_pos=25&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=24
+2024-12-25 08:30:47,023 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5049551197946007s... (3 retries left) ***
+2024-12-25 08:30:56,883 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:30:56,883 - INFO - Retrying get_vehicle_page_info()  in 1.0395404177807885s... (3 retries left)
+2024-12-25 08:31:06,841 - INFO - 'Pontiac Vibe 1.8 AWD 2005 Gray'  |  (20) attributes found  |  https://jiji.ng/isolo/cars/pontiac-vibe-1-8-awd-2005-gray-qg0niEUw6EDNRrq7n2JogTEi.html?page=13&pos=2&cur_pos=2&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=1
+2024-12-25 08:31:06,842 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0395404177807885s... (3 retries left) ***
+2024-12-25 08:31:15,161 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:31:15,161 - INFO - Retrying get_vehicle_page_info()  in 1.3546117325212892s... (3 retries left)
+2024-12-25 08:31:25,338 - INFO - 'Toyota Corolla 2004 Blue'  |  (13) attributes found  |  https://jiji.ng/idu-industrial/cars/toyota-corolla-2004-blue-dFbXGirZJjgxNSu4kjmwzZSo.html?page=13&pos=4&cur_pos=4&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=3
+2024-12-25 08:31:25,339 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3546117325212892s... (3 retries left) ***
+2024-12-25 08:31:35,053 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:31:35,053 - INFO - Retrying get_vehicle_page_info()  in 1.9338896869317264s... (3 retries left)
+2024-12-25 08:31:45,468 - INFO - 'Toyota Highlander 2012 Silver'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-highlander-2012-silver-hvQmHrHpwTKGX3LFkQ60wjW.html?page=13&pos=6&cur_pos=6&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=5
+2024-12-25 08:31:45,468 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.9338896869317264s... (3 retries left) ***
+2024-12-25 08:31:54,210 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:31:54,212 - INFO - Retrying get_vehicle_page_info()  in 1.3321488994445185s... (3 retries left)
+2024-12-25 08:32:04,459 - INFO - 'Honda CR-V 2004 Red'  |  (9) attributes found  |  https://jiji.ng/port-harcourt/cars/honda-cr-v-2004-red-w3j72EI71GV9zgmfQxcHR2fY.html?page=13&pos=8&cur_pos=8&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=7
+2024-12-25 08:32:04,459 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3321488994445185s... (3 retries left) ***
+2024-12-25 08:32:13,007 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:32:13,007 - INFO - Retrying get_vehicle_page_info()  in 1.4244024927364494s... (3 retries left)
+2024-12-25 08:32:24,028 - INFO - 'Lexus RX 350 2023 Silver'  |  (11) attributes found  |  https://jiji.ng/lekki/cars/lexus-rx-350-2023-silver-iHrv5wz3CNk51cQWbeN8bbXe.html?page=13&pos=10&cur_pos=10&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=9
+2024-12-25 08:32:24,029 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4244024927364494s... (3 retries left) ***
+2024-12-25 08:32:31,602 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:32:31,606 - INFO - Retrying get_vehicle_page_info()  in 1.5367264657589574s... (3 retries left)
+2024-12-25 08:32:41,819 - INFO - 'Lexus ES 350 2008 Red'  |  (12) attributes found  |  https://jiji.ng/ajah/cars/lexus-es-350-2008-red-A5MLm9ziPBrl2Bcl0YxuNLHq.html?page=13&pos=12&cur_pos=12&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=11
+2024-12-25 08:32:41,820 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5367264657589574s... (3 retries left) ***
+2024-12-25 08:32:50,483 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:32:50,483 - INFO - Retrying get_vehicle_page_info()  in 1.0554360373564813s... (3 retries left)
+2024-12-25 08:33:01,199 - INFO - 'Toyota FJ Cruiser 2008 Black'  |  (12) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-fj-cruiser-2008-black-5KQU6CRLK0kCJRFYwTeQdFoN.html?page=13&pos=14&cur_pos=14&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=13
+2024-12-25 08:33:01,199 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0554360373564813s... (3 retries left) ***
+2024-12-25 08:33:12,286 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:33:12,291 - INFO - Retrying get_vehicle_page_info()  in 1.0567440438863234s... (3 retries left)
+2024-12-25 08:33:23,693 - INFO - 'Toyota Camry 2000 Gold'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2000-gold-dM392Kv0RGhMzgXIhGLhF5zv.html?page=13&pos=16&cur_pos=16&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=15
+2024-12-25 08:33:23,695 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0567440438863234s... (3 retries left) ***
+2024-12-25 08:33:32,567 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:33:32,567 - INFO - Retrying get_vehicle_page_info()  in 1.378926982833339s... (3 retries left)
+2024-12-25 08:33:44,068 - INFO - 'Toyota Tundra Work Truck 2010 Gray'  |  (21) attributes found  |  https://jiji.ng/ikeja/cars/toyota-tundra-work-truck-2010-gray-63DzX83lRXwmdHRuv4QzZ9Fv.html?page=13&pos=18&cur_pos=18&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=17
+2024-12-25 08:33:44,069 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.378926982833339s... (3 retries left) ***
+2024-12-25 08:33:54,797 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:33:54,797 - INFO - Retrying get_vehicle_page_info()  in 1.3853456128008828s... (3 retries left)
+2024-12-25 08:34:04,841 - INFO - 'Toyota Corolla 2005 Red'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2005-red-uAfTugY2m7LTCjR21pJtIauG.html?page=13&pos=20&cur_pos=20&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=19
+2024-12-25 08:34:04,841 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3853456128008828s... (3 retries left) ***
+2024-12-25 08:34:13,152 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:34:13,152 - INFO - Retrying get_vehicle_page_info()  in 1.5285191078024505s... (3 retries left)
+2024-12-25 08:34:23,562 - INFO - 'Mercedes-Benz C300 2016 Black'  |  (10) attributes found  |  https://jiji.ng/jahi/cars/mercedes-benz-c300-2016-black-cztZrQrwHuRXgzxVL7kyN8y8.html?page=13&pos=22&cur_pos=22&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=21
+2024-12-25 08:34:23,562 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5285191078024505s... (3 retries left) ***
+2024-12-25 08:35:21,402 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:35:21,402 - INFO - Retrying get_vehicle_page_info()  in 1.7767675651931432s... (3 retries left)
+2024-12-25 08:35:30,954 - INFO - 'Toyota Sienna LE AWD 2006 Blue'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-sienna-le-awd-2006-blue-fZxuHejzmiFdb3ZjcueLfKwv.html?page=13&pos=24&cur_pos=24&ads_per_page=25&ads_count=101491&lid=hg1_R0OGCk1rDp1N&indexPosition=23
+2024-12-25 08:35:30,955 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.7767675651931432s... (3 retries left) ***
+2024-12-25 08:35:36,838 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 08:35:36,838 - INFO - Total vehicles processed: 250
+2024-12-25 08:35:36,838 - INFO - ====================================================================
+2024-12-25 08:35:36,840 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=14
+2024-12-25 08:35:36,840 - INFO - WebDriver is disconnected within get_vehicle_tag_list()
+2024-12-25 08:35:36,840 - INFO - Retrying get_vehicle_tag_list()  in 1.6088798858726163s... (3 retries left)
+2024-12-25 08:35:41,741 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=14
+2024-12-25 08:35:43,945 - INFO - 25 vehicles found
+2024-12-25 08:35:43,945 - INFO - Successful *** Retrying get_vehicle_tag_list()  in 1.6088798858726163s... (3 retries left) ***
+2024-12-25 08:35:50,098 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:35:50,098 - INFO - Retrying get_vehicle_page_info()  in 1.15181602521406s... (3 retries left)
+2024-12-25 08:35:59,676 - INFO - 'Toyota Highlander 2015 White'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-highlander-2015-white-uwDmk3uyyWCwQ70PEjflTzBi.html?page=14&pos=1&cur_pos=1&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=0
+2024-12-25 08:35:59,677 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.15181602521406s... (3 retries left) ***
+2024-12-25 08:36:06,422 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:36:06,422 - INFO - Retrying get_vehicle_page_info()  in 1.0016870748484923s... (3 retries left)
+2024-12-25 08:36:14,648 - INFO - 'Mazda Premacy 2.0 TD Exclusive 2005 Blue'  |  (21) attributes found  |  https://jiji.ng/mushin/cars/mazda-premacy-2-0-td-exclusive-2005-blue-tXg4Y67hzKwsFnnOL9377MDi.html?page=14&pos=4&cur_pos=4&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=3
+2024-12-25 08:36:14,649 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0016870748484923s... (3 retries left) ***
+2024-12-25 08:36:24,483 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:36:24,483 - INFO - Retrying get_vehicle_page_info()  in 1.048522718755474s... (3 retries left)
+2024-12-25 08:36:33,487 - INFO - 'Toyota Camry 2010 White'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2010-white-s8MKKqUlFxkTH1Hsh7890TxX.html?page=14&pos=7&cur_pos=7&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=6
+2024-12-25 08:36:33,487 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.048522718755474s... (3 retries left) ***
+2024-12-25 08:36:41,812 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:36:41,812 - INFO - Retrying get_vehicle_page_info()  in 1.4772363631906598s... (3 retries left)
+2024-12-25 08:36:53,269 - INFO - 'Toyota Land Cruiser Prado 2015 Black'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-land-cruiser-prado-2015-black-m9e5AtCrXwzRV59HS1MCdCCz.html?page=14&pos=10&cur_pos=10&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=9
+2024-12-25 08:36:53,271 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4772363631906598s... (3 retries left) ***
+2024-12-25 08:36:59,960 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:36:59,960 - INFO - Retrying get_vehicle_page_info()  in 1.2240600934548076s... (3 retries left)
+2024-12-25 08:37:10,939 - INFO - 'Hyundai Sonata 2012 Gray'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/hyundai-sonata-2012-gray-6nZht6ohlgHqesByLGvOnAn5.html?page=14&pos=13&cur_pos=13&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=12
+2024-12-25 08:37:10,940 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.2240600934548076s... (3 retries left) ***
+2024-12-25 08:37:20,691 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:37:20,691 - INFO - Retrying get_vehicle_page_info()  in 1.0965100699658843s... (3 retries left)
+2024-12-25 08:37:28,934 - INFO - 'Toyota Land Cruiser Prado 4.0 i 2012 Black'  |  (21) attributes found  |  https://jiji.ng/katampe/cars/toyota-land-cruiser-prado-4-0-i-2012-black-wxwf94oQuV5fwmvTw8SdioFZ.html?page=14&pos=16&cur_pos=16&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=15
+2024-12-25 08:37:28,934 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0965100699658843s... (3 retries left) ***
+2024-12-25 08:37:39,697 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:37:39,697 - INFO - Retrying get_vehicle_page_info()  in 1.4578552387052373s... (3 retries left)
+2024-12-25 08:37:48,401 - INFO - 'Mercedes-Benz E350 2013 Black'  |  (13) attributes found  |  https://jiji.ng/gwarinpa/cars/mercedes-benz-e350-2013-black-hjLgKPhhGFc2Wmu7UnPqeHuv.html?page=14&pos=19&cur_pos=19&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=18
+2024-12-25 08:37:48,402 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4578552387052373s... (3 retries left) ***
+2024-12-25 08:37:58,159 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:37:58,159 - INFO - Retrying get_vehicle_page_info()  in 1.3203654490831152s... (3 retries left)
+2024-12-25 08:38:07,148 - INFO - 'Toyota Avalon 2014 Green'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-avalon-2014-green-8wPoaFk0iLiyUKgLuNb0BYDK.html?page=14&pos=22&cur_pos=22&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=21
+2024-12-25 08:38:07,149 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3203654490831152s... (3 retries left) ***
+2024-12-25 08:38:15,282 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:38:15,282 - INFO - Retrying get_vehicle_page_info()  in 1.8049431768041768s... (3 retries left)
+2024-12-25 08:38:24,766 - INFO - 'Toyota Camry 2008 Red'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-camry-2008-red-3P20RAAYqxRPu3Q1KFe29HES.html?page=14&pos=25&cur_pos=25&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=24
+2024-12-25 08:38:24,767 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.8049431768041768s... (3 retries left) ***
+2024-12-25 08:38:32,363 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:38:32,363 - INFO - Retrying get_vehicle_page_info()  in 1.236016604028137s... (3 retries left)
+2024-12-25 08:38:42,449 - INFO - 'Lexus LX 2024 Gray'  |  (11) attributes found  |  https://jiji.ng/ikeja/cars/lexus-lx-2024-gray-v1IwJJg8DGz8zsiRIE4ZjSdk.html?page=14&pos=2&cur_pos=2&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=1
+2024-12-25 08:38:42,449 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.236016604028137s... (3 retries left) ***
+2024-12-25 08:38:52,396 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:38:52,396 - INFO - Retrying get_vehicle_page_info()  in 1.4203391644027312s... (3 retries left)
+2024-12-25 08:39:03,593 - INFO - 'Mini Cooper 2012 Green'  |  (9) attributes found  |  https://jiji.ng/katampe/cars/mini-cooper-2012-green-zwCtJZNE0EJvi9TLS7AziBQU.html?page=14&pos=5&cur_pos=5&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=4
+2024-12-25 08:39:03,594 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4203391644027312s... (3 retries left) ***
+2024-12-25 08:39:12,284 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:39:12,284 - INFO - Retrying get_vehicle_page_info()  in 1.1618632748568647s... (3 retries left)
+2024-12-25 08:39:21,103 - INFO - 'New Peugeot Landtrek 2.4 Petrol Double Cab RWD 2024 White'  |  (12) attributes found  |  https://jiji.ng/central-business-district/cars/new-peugeot-landtrek-2-4-petrol-double-cab-rwd-2024-white-g4RjNygYHvRNEZkHS5CF0WuT.html?page=14&pos=8&cur_pos=8&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=7
+2024-12-25 08:39:21,103 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.1618632748568647s... (3 retries left) ***
+2024-12-25 08:39:30,963 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:39:30,963 - INFO - Retrying get_vehicle_page_info()  in 1.2957851646311571s... (3 retries left)
+2024-12-25 08:39:39,658 - INFO - 'Toyota Tundra CrewMax 2009 Green'  |  (21) attributes found  |  https://jiji.ng/katampe/cars/toyota-tundra-crewmax-2009-green-p9fBK7derqHoVhERfLQLdX5G.html?page=14&pos=11&cur_pos=11&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=10
+2024-12-25 08:39:39,658 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.2957851646311571s... (3 retries left) ***
+2024-12-25 08:39:51,048 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:39:51,049 - INFO - Retrying get_vehicle_page_info()  in 1.8293515094736104s... (3 retries left)
+2024-12-25 08:40:02,921 - INFO - 'Toyota Corolla 2014 Gray'  |  (19) attributes found  |  https://jiji.ng/surulere/cars/toyota-corolla-2014-gray-8Ra9afw7qUO9EwdPJgqEhIcI.html?page=14&pos=14&cur_pos=14&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=13
+2024-12-25 08:40:02,921 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.8293515094736104s... (3 retries left) ***
+2024-12-25 08:40:11,293 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:40:11,293 - INFO - Retrying get_vehicle_page_info()  in 1.5001278829695046s... (3 retries left)
+2024-12-25 08:40:19,759 - INFO - 'Mercedes-Benz C300 2017 Blue'  |  (19) attributes found  |  https://jiji.ng/igando-ikotun/cars/mercedes-benz-c300-2017-blue-3Kvqwxr0LtDVwgE5njWFlsQp.html?page=14&pos=17&cur_pos=17&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=16
+2024-12-25 08:40:19,760 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5001278829695046s... (3 retries left) ***
+2024-12-25 08:40:28,152 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:40:28,152 - INFO - Retrying get_vehicle_page_info()  in 1.2048293172836662s... (3 retries left)
+2024-12-25 08:40:37,508 - INFO - 'Land Rover Discovery Sport SE R-Dynamic 2021 Red'  |  (13) attributes found  |  https://jiji.ng/garki-ii/cars/land-rover-discovery-sport-se-r-dynamic-2021-red-CzCVaAtkLoQGlRdpImjybxCZ.html?page=14&pos=20&cur_pos=20&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=19
+2024-12-25 08:40:37,509 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.2048293172836662s... (3 retries left) ***
+2024-12-25 08:40:46,008 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:40:46,008 - INFO - Retrying get_vehicle_page_info()  in 1.702439843293671s... (3 retries left)
+2024-12-25 08:40:55,678 - INFO - 'Toyota Matrix 2010 Red'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-matrix-2010-red-d6LJt6QcrkVV8KA3Mcf2Gs47.html?page=14&pos=23&cur_pos=23&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=22
+2024-12-25 08:40:55,678 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.702439843293671s... (3 retries left) ***
+2024-12-25 08:41:03,577 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:41:03,577 - INFO - Retrying get_vehicle_page_info()  in 1.5620463645600733s... (3 retries left)
+2024-12-25 08:41:13,212 - INFO - 'Mitsubishi Pajero 2016 Black'  |  (13) attributes found  |  https://jiji.ng/magodo/cars/mitsubishi-pajero-2016-black-55aTurW1EpmopyjKeUNBV1wz.html?page=14&pos=3&cur_pos=3&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=2
+2024-12-25 08:41:13,213 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5620463645600733s... (3 retries left) ***
+2024-12-25 08:41:23,679 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:41:23,679 - INFO - Retrying get_vehicle_page_info()  in 1.4679056919478382s... (3 retries left)
+2024-12-25 08:41:35,045 - INFO - 'Toyota Corolla 2010 Blue'  |  (12) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2010-blue-zZHys5x2TjhC6rZZaShpI24y.html?page=14&pos=6&cur_pos=6&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=5
+2024-12-25 08:41:35,046 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4679056919478382s... (3 retries left) ***
+2024-12-25 08:41:43,599 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:41:43,599 - INFO - Retrying get_vehicle_page_info()  in 1.085826474713628s... (3 retries left)
+2024-12-25 08:41:52,034 - INFO - 'Mercedes-Benz M Class 2015 Black'  |  (20) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-m-class-2015-black-mMDNRokUjn4DY8cdtHZXn4GK.html?page=14&pos=9&cur_pos=9&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=8
+2024-12-25 08:41:52,034 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.085826474713628s... (3 retries left) ***
+2024-12-25 08:42:02,643 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:42:02,643 - INFO - Retrying get_vehicle_page_info()  in 1.1238539836560486s... (3 retries left)
+2024-12-25 08:42:11,430 - INFO - 'Hyundai Sonata 2015 Silver'  |  (21) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/hyundai-sonata-2015-silver-BIUbg4JI2CRNRjPUV2nMzxPE.html?page=14&pos=12&cur_pos=12&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=11
+2024-12-25 08:42:11,430 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.1238539836560486s... (3 retries left) ***
+2024-12-25 08:42:20,079 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:42:20,079 - INFO - Retrying get_vehicle_page_info()  in 1.4883578464011427s... (3 retries left)
+2024-12-25 08:42:29,477 - INFO - 'Mercedes-Benz GLK-Class 2012 White'  |  (9) attributes found  |  https://jiji.ng/katampe/cars/mercedes-benz-glk-class-2012-white-tCFHDEKpuoervhudKzeWT9f6.html?page=14&pos=15&cur_pos=15&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=14
+2024-12-25 08:42:29,478 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4883578464011427s... (3 retries left) ***
+2024-12-25 08:42:38,909 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:42:38,909 - INFO - Retrying get_vehicle_page_info()  in 1.3071992165326223s... (3 retries left)
+2024-12-25 08:42:47,911 - INFO - 'Toyota Venza 2012 Gray'  |  (12) attributes found  |  https://jiji.ng/central-business-district/cars/toyota-venza-2012-gray-hDhZglxc67gHVYJmDskzJ9TZ.html?page=14&pos=18&cur_pos=18&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=17
+2024-12-25 08:42:47,911 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3071992165326223s... (3 retries left) ***
+2024-12-25 08:42:57,218 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:42:57,218 - INFO - Retrying get_vehicle_page_info()  in 1.908297967612814s... (3 retries left)
+2024-12-25 08:43:08,300 - INFO - 'Jaguar XJ XJ8 2004 Green'  |  (19) attributes found  |  https://jiji.ng/garki-ii/cars/jaguar-xj-xj8-2004-green-eJRVCiWLo3ngzUK8ltZulzhW.html?page=14&pos=21&cur_pos=21&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=20
+2024-12-25 08:43:08,301 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.908297967612814s... (3 retries left) ***
+2024-12-25 08:43:19,054 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:43:19,054 - INFO - Retrying get_vehicle_page_info()  in 1.695641213045632s... (3 retries left)
+2024-12-25 08:43:29,336 - INFO - 'Toyota Avalon 2015 Teal'  |  (20) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/toyota-avalon-2015-teal-14eSnoQa8sk09XnzvX91l5pr.html?page=14&pos=24&cur_pos=24&ads_per_page=25&ads_count=101478&lid=yZFP5OG3xoz8tskC&indexPosition=23
+2024-12-25 08:43:29,336 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.695641213045632s... (3 retries left) ***
+2024-12-25 08:43:35,074 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 08:43:35,074 - INFO - Total vehicles processed: 275
+2024-12-25 08:43:35,074 - INFO - ====================================================================
+2024-12-25 08:43:35,079 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=15
+2024-12-25 08:43:35,079 - INFO - WebDriver is disconnected within get_vehicle_tag_list()
+2024-12-25 08:43:35,079 - INFO - Retrying get_vehicle_tag_list()  in 1.0750884803583274s... (3 retries left)
+2024-12-25 08:43:39,459 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=15
+2024-12-25 08:43:41,445 - INFO - 25 vehicles found
+2024-12-25 08:43:41,446 - INFO - Successful *** Retrying get_vehicle_tag_list()  in 1.0750884803583274s... (3 retries left) ***
+2024-12-25 08:43:47,395 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:43:47,395 - INFO - Retrying get_vehicle_page_info()  in 1.2747448523414993s... (3 retries left)
+2024-12-25 08:43:58,221 - INFO - 'New Land Rover Defender 2024 Blue'  |  (10) attributes found  |  https://jiji.ng/victoria-island/cars/new-land-rover-defender-2024-blue-8ZnObGMpWJUVClzOEs20mygS.html?page=15&pos=1&cur_pos=1&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=0
+2024-12-25 08:43:58,222 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.2747448523414993s... (3 retries left) ***
+2024-12-25 08:44:05,994 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:44:05,999 - INFO - Retrying get_vehicle_page_info()  in 1.0670792326317673s... (3 retries left)
+2024-12-25 08:44:16,027 - INFO - 'Hyundai Sonata 2015 Black'  |  (21) attributes found  |  https://jiji.ng/shomolu/cars/hyundai-sonata-2015-black-iNW4r8RPsZ8HZcVay6ZSSepL.html?page=15&pos=4&cur_pos=4&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=3
+2024-12-25 08:44:16,027 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0670792326317673s... (3 retries left) ***
+2024-12-25 08:44:22,861 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:44:22,861 - INFO - Retrying get_vehicle_page_info()  in 1.4676153299541363s... (3 retries left)
+2024-12-25 08:44:33,115 - INFO - 'Lexus RX 350 2011 Gray'  |  (19) attributes found  |  https://jiji.ng/ikeja/cars/lexus-rx-350-2011-gray-lltzysYmop14wV5e7pcZGtRw.html?page=15&pos=7&cur_pos=7&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=6
+2024-12-25 08:44:33,116 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4676153299541363s... (3 retries left) ***
+2024-12-25 08:44:41,081 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:44:41,081 - INFO - Retrying get_vehicle_page_info()  in 1.5306035909990214s... (3 retries left)
+2024-12-25 08:44:51,108 - INFO - 'Toyota Camry 2008 Gray'  |  (11) attributes found  |  https://jiji.ng/surulere/cars/toyota-camry-2008-gray-6uTv99K1Fx8ShxKAPpt6nNvL.html?page=15&pos=10&cur_pos=10&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=9
+2024-12-25 08:44:51,109 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5306035909990214s... (3 retries left) ***
+2024-12-25 08:44:59,762 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:44:59,762 - INFO - Retrying get_vehicle_page_info()  in 1.6434585397290482s... (3 retries left)
+2024-12-25 08:45:09,769 - INFO - 'Toyota Sienna 2013 Black'  |  (12) attributes found  |  https://jiji.ng/garki-ii/cars/toyota-sienna-2013-black-rNRX8HuDsC5gf8MEeB4g2ghn.html?page=15&pos=13&cur_pos=13&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=12
+2024-12-25 08:45:09,770 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.6434585397290482s... (3 retries left) ***
+2024-12-25 08:45:21,117 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:45:21,117 - INFO - Retrying get_vehicle_page_info()  in 1.6449876466847118s... (3 retries left)
+2024-12-25 08:45:31,610 - INFO - 'Toyota Camry 2016 Black'  |  (20) attributes found  |  https://jiji.ng/gwarinpa/cars/toyota-camry-2016-black-3iA3PoCxQUvXboGT9BswU10S.html?page=15&pos=16&cur_pos=16&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=15
+2024-12-25 08:45:31,612 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.6449876466847118s... (3 retries left) ***
+2024-12-25 08:45:38,891 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:45:38,891 - INFO - Retrying get_vehicle_page_info()  in 1.3794045531111137s... (3 retries left)
+2024-12-25 08:45:48,100 - INFO - 'Chevrolet Camaro 2012 Red'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/chevrolet-camaro-2012-red-fMMYFkarILyQoqUQHjDr6yar.html?page=15&pos=19&cur_pos=19&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=18
+2024-12-25 08:45:48,101 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3794045531111137s... (3 retries left) ***
+2024-12-25 08:48:02,307 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:48:02,307 - INFO - Retrying get_vehicle_page_info()  in 1.5911639404174482s... (3 retries left)
+2024-12-25 08:48:14,851 - INFO - 'Honda CR-V 2007 Silver'  |  (11) attributes found  |  https://jiji.ng/agege/cars/honda-cr-v-2007-silver-qbpO9ZMaRD0iEJ4Oa4WTsQzO.html?page=15&pos=22&cur_pos=22&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=21
+2024-12-25 08:48:14,852 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5911639404174482s... (3 retries left) ***
+2024-12-25 08:48:21,492 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:48:21,492 - INFO - Retrying get_vehicle_page_info()  in 1.242795601804767s... (3 retries left)
+2024-12-25 08:48:32,722 - INFO - 'Mercedes-Benz E300 2017 Silver'  |  (16) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-e300-2017-silver-iduOGwvzMKkK5O2b6kYbcxo7.html?page=15&pos=25&cur_pos=25&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=24
+2024-12-25 08:48:32,723 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.242795601804767s... (3 retries left) ***
+2024-12-25 08:48:40,418 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:48:40,418 - INFO - Retrying get_vehicle_page_info()  in 1.0227379273581203s... (3 retries left)
+2024-12-25 08:48:50,247 - INFO - 'Ford Mustang GT Fastback 2019 Red'  |  (19) attributes found  |  https://jiji.ng/lekki/cars/ford-mustang-gt-fastback-2019-red-myILO2eHsIVzW1WrY8okrpxJ.html?page=15&pos=2&cur_pos=2&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=1
+2024-12-25 08:48:50,247 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0227379273581203s... (3 retries left) ***
+2024-12-25 08:48:59,809 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:48:59,809 - INFO - Retrying get_vehicle_page_info()  in 1.7921957516185734s... (3 retries left)
+2024-12-25 08:49:11,536 - INFO - 'Toyota Highlander XSE AWD 2024 Gray'  |  (15) attributes found  |  https://jiji.ng/alimosho/cars/toyota-highlander-xse-awd-2024-gray-fx2GwCsaigoKHIoqTLXTjzsE.html?page=15&pos=5&cur_pos=5&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=4
+2024-12-25 08:49:11,536 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.7921957516185734s... (3 retries left) ***
+2024-12-25 08:49:20,401 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:49:20,403 - INFO - Retrying get_vehicle_page_info()  in 1.906199905208215s... (3 retries left)
+2024-12-25 08:49:31,806 - INFO - 'Hyundai Tucson 2008 Gold'  |  (11) attributes found  |  https://jiji.ng/ado-odo-ota/cars/hyundai-tucson-2008-gold-x9bAdCINOgfjGdQccsBHWXZ3.html?page=15&pos=8&cur_pos=8&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=7
+2024-12-25 08:49:31,807 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.906199905208215s... (3 retries left) ***
+2024-12-25 08:49:42,271 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:49:42,271 - INFO - Retrying get_vehicle_page_info()  in 1.9785135636324886s... (3 retries left)
+2024-12-25 08:49:54,230 - INFO - 'Geely Coolray 1.5 FWD 2022 Red'  |  (19) attributes found  |  https://jiji.ng/ikeja/cars/geely-coolray-1-5-fwd-2022-red-mlEDrGPbCukoWtRSncI352qd.html?page=15&pos=11&cur_pos=11&ads_per_page=25&ads_count=101465&lid=KRg8yvCLtkZ2Njm6&indexPosition=10
+2024-12-25 08:49:54,231 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.9785135636324886s... (3 retries left) ***
+2024-12-25 08:50:03,089 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:50:03,089 - INFO - Retrying get_vehicle_page_info()  in 1.7657757074623657s... (3 retries left)
+2024-12-25 08:51:05,959 - ERROR - Error in  get_vehicle_page_info(): list index out of range
+2024-12-25 08:51:05,959 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.7657757074623657s... (3 retries left) ***
+2024-12-25 08:51:15,405 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 08:51:15,405 - INFO - Retrying get_vehicle_page_info()  in 1.543185851159274s... (3 retries left)
+2024-12-25 08:51:18,634 - ERROR - Error in  configure_chrome_driver: Could not reach host. Are you offline?
+2024-12-25 08:51:18,636 - ERROR - Error in scrape_car_prices(): Could not reach host. Are you offline?
+2024-12-25 08:51:21,804 - INFO - The cars_info_agent, web scraper, is exiting.
+2024-12-25 09:10:40,692 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=1
+2024-12-25 09:10:43,130 - INFO - 25 vehicles found
+2024-12-25 09:10:49,279 - INFO - 'Mercedes-Benz G-Class G 63 AMG 4MATIC 2016 Black'  |  (20) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-g-class-g-63-amg-4matic-2016-black-q0lNcljORAcLx8BAt7WtIcvo.html?page=1&pos=1&cur_pos=1&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=0
+2024-12-25 09:11:00,521 - INFO - 'Mercedes-Benz GLA-Class 2015 Black'  |  (21) attributes found  |  https://jiji.ng/ajah/cars/mercedes-benz-gla-class-2015-black-wKYUGmqkUfPrIKmGITmfBKbo.html?page=1&pos=3&cur_pos=3&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=2
+2024-12-25 09:11:10,711 - INFO - 'Toyota Highlander Hybrid 2006 Gold'  |  (21) attributes found  |  https://jiji.ng/ikorodu/cars/toyota-highlander-hybrid-2006-gold-uQlGtfGQ2UcMkyH1kOyrOe87.html?page=1&pos=5&cur_pos=5&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=4
+2024-12-25 09:11:19,494 - INFO - 'Mercedes-Benz CLA-Class CLA 250 4MATIC Sedan 2014 Black'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-cla-class-cla-250-4matic-sedan-2014-black-mBa7ai2zqIUZuHCRSazVQpa3.html?page=1&pos=7&cur_pos=7&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=6
+2024-12-25 09:11:29,220 - INFO - 'Toyota Camry 2014 Black'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/toyota-camry-2014-black-k9moPhlXu2TZZdFBxTH9utTU.html?page=1&pos=9&cur_pos=9&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=8
+2024-12-25 09:11:41,509 - INFO - 'Lexus ES 350 FWD 2013 Black'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/lexus-es-350-fwd-2013-black-suQvpeTYFaYt3XnLqUScNyN0.html?page=1&pos=11&cur_pos=11&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=10
+2024-12-25 09:11:50,889 - INFO - 'Mercedes-Benz GLK-Class 350 4MATIC 2011 Gray'  |  (20) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-glk-class-350-4matic-2011-gray-6gyYhhTT36Di5NSXNs54loK2.html?page=1&pos=13&cur_pos=13&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=12
+2024-12-25 09:11:58,924 - INFO - 'Toyota Highlander 2017 White'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-2017-white-8OFYY6lHfpx14t9pfOJoKmPJ.html?page=1&pos=15&cur_pos=15&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=14
+2024-12-25 09:12:08,337 - INFO - 'Peugeot 307 1.4 90 Grand Filou Cool 2007 White'  |  (19) attributes found  |  https://jiji.ng/gwarinpa/cars/peugeot-307-1-4-90-grand-filou-cool-2007-white-hs394xFE0zWHi3OjNgSvPIuh.html?page=1&pos=17&cur_pos=17&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=16
+2024-12-25 09:12:15,825 - INFO - 'Mercedes-Benz GLK-Class 2015 Gray'  |  (20) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-glk-class-2015-gray-vVi6uywwJpvEIjxiH0FUDcOQ.html?page=1&pos=19&cur_pos=19&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=18
+2024-12-25 09:12:22,963 - INFO - 'Toyota Camry 2014 Gray'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/toyota-camry-2014-gray-3OHHvPlVJanxCJPzxOfJ4EYB.html?page=1&pos=21&cur_pos=21&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=20
+2024-12-25 09:12:31,622 - INFO - 'Mercedes-Benz M Class 2015 Blue'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/mercedes-benz-m-class-2015-blue-10BvEO2hMMrz2WOraLms9teQ.html?page=1&pos=23&cur_pos=23&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=22
+2024-12-25 09:12:39,211 - INFO - 'Mercedes-Benz M Class 2015 Black'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-m-class-2015-black-hx7394z8TMA9DCuTfMAE8L8E.html?page=1&pos=25&cur_pos=25&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=24
+2024-12-25 09:12:48,190 - INFO - 'Toyota Camry 2009 Red'  |  (22) attributes found  |  https://jiji.ng/ajah/cars/toyota-camry-2009-red-3OCvPWRiEnPkikf9baPT635t.html?page=1&pos=2&cur_pos=2&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=1
+2024-12-25 09:12:55,813 - INFO - 'Acura MDX 2008 Black'  |  (21) attributes found  |  https://jiji.ng/lekki/cars/acura-mdx-2008-black-vaxf67GEb0Gfrdj4l9XPlb1I.html?page=1&pos=4&cur_pos=4&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=3
+2024-12-25 09:13:06,919 - INFO - 'Mercedes-Benz GLE-Class AMG GLE 43 4MATIC 2018 Black'  |  (21) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-gle-class-amg-gle-43-4matic-2018-black-ugd3sOPXgBURCxRe4b6Ol7CP.html?page=1&pos=6&cur_pos=6&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=5
+2024-12-25 09:13:16,373 - INFO - 'Lexus GX 460 Luxury 2016 Black'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/lexus-gx-460-luxury-2016-black-l3BYEeTxzJcz3KcZpS9qEf9T.html?page=1&pos=8&cur_pos=8&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=7
+2024-12-25 09:13:26,293 - INFO - 'Mercedes-Benz C400 2017 Silver'  |  (12) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-c400-2017-silver-al3k366CQ99GYb1AF86BFp54.html?page=1&pos=10&cur_pos=10&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=9
+2024-12-25 09:13:37,398 - INFO - 'Mercedes-Benz M Class 2015 Silver'  |  (21) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-m-class-2015-silver-nJcNFNyhBWHVaNrZiRBOg8fS.html?page=1&pos=12&cur_pos=12&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=11
+2024-12-25 09:13:46,829 - INFO - 'Mercedes-Benz GLA 250 2016 Brown'  |  (13) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-gla-250-2016-brown-cN6OWyPWQKdxc0LJc90fz0zl.html?page=1&pos=14&cur_pos=14&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=13
+2024-12-25 09:13:57,170 - INFO - 'Mercedes-Benz A-Class A 220 4MATIC 2019 Red'  |  (21) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-a-class-a-220-4matic-2019-red-q2OlszuuAQSezJcQ5kgRNA4S.html?page=1&pos=16&cur_pos=16&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=15
+2024-12-25 09:14:05,179 - INFO - 'Toyota Camry 2008 Gold'  |  (21) attributes found  |  https://jiji.ng/ikeja/cars/toyota-camry-2008-gold-hMfwGLhhHM2i72ah1QeGutF7.html?page=1&pos=18&cur_pos=18&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=17
+2024-12-25 09:14:13,666 - INFO - 'Honda Accord 2014 Silver'  |  (22) attributes found  |  https://jiji.ng/ajah/cars/honda-accord-2014-silver-iWbCiH4JrEi23ovoXVPol2Lj.html?page=1&pos=20&cur_pos=20&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=19
+2024-12-25 09:14:21,124 - INFO - 'Toyota RAV4 2017 White'  |  (21) attributes found  |  https://jiji.ng/ajah/cars/toyota-rav4-2017-white-gjeeNcSJ7Q2SQOx2r79d0MN3.html?page=1&pos=22&cur_pos=22&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=21
+2024-12-25 09:14:28,789 - INFO - 'Lexus RX 350 F SPORT AWD 2013 Blue'  |  (20) attributes found  |  https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-f-sport-awd-2013-blue-k9CVbCL8uoO25rJMXxedUQYC.html?page=1&pos=24&cur_pos=24&ads_per_page=25&ads_count=101466&lid=g9QRK_qL3Y8Q1MXG&indexPosition=23
+2024-12-25 09:14:31,190 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 09:14:31,191 - INFO - Total vehicles processed: 25
+2024-12-25 09:14:31,192 - INFO - ====================================================================
+2024-12-25 09:14:31,194 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=2
+2024-12-25 09:14:32,763 - INFO - 25 vehicles found
+2024-12-25 09:14:38,096 - INFO - 'Honda Accord 2015 Black'  |  (13) attributes found  |  https://jiji.ng/katampe/cars/honda-accord-2015-black-5CWS8LJHBPx6410bO0uvTXWm.html?page=2&pos=1&cur_pos=1&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=0
+2024-12-25 09:14:47,064 - INFO - 'Mercedes-Benz CLA-Class CLA 250 Sedan 2016 Silver'  |  (22) attributes found  |  https://jiji.ng/ajah/cars/mercedes-benz-cla-class-cla-250-sedan-2016-silver-mHU35qiF6ptAcGRAa0mDydrQ.html?page=2&pos=3&cur_pos=3&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=2
+2024-12-25 09:14:55,544 - INFO - 'Mercedes-Benz M Class ML 350 BlueTEC 4Matic 2013 Black'  |  (20) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-m-class-ml-350-bluetec-4matic-2013-black-13Od9xiKsHagszaC03kl1Qot.html?page=2&pos=5&cur_pos=5&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=4
+2024-12-25 09:15:05,238 - INFO - 'Mercedes-Benz GLK-Class 350 4MATIC 2011 Gray'  |  (21) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-glk-class-350-4matic-2011-gray-cQeb7JoxDI02RO2iWW6sJbzf.html?page=2&pos=7&cur_pos=7&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=6
+2024-12-25 09:15:14,840 - INFO - 'Toyota Highlander 2018 Blue'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-2018-blue-kVL87KFTfR6fzdz8pCcPbUHX.html?page=2&pos=9&cur_pos=9&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=8
+2024-12-25 09:15:24,918 - INFO - 'Lexus RX 350 2007 White'  |  (11) attributes found  |  https://jiji.ng/ikeja/cars/lexus-rx-350-2007-white-8dkKQpmUuWqaVfIAGL5o5P9g.html?page=2&pos=11&cur_pos=11&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=10
+2024-12-25 09:15:34,767 - INFO - 'Toyota Venza 2010 Silver'  |  (10) attributes found  |  https://jiji.ng/ojodu/cars/toyota-venza-2010-silver-k9YrkbJHW8d8N5LRtHt5jgUo.html?page=2&pos=13&cur_pos=13&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=12
+2024-12-25 09:15:43,313 - INFO - 'Mercedes-Benz GLE-Class GLE 350 2016 Red'  |  (11) attributes found  |  https://jiji.ng/ojodu/cars/mercedes-benz-gle-class-gle-350-2016-red-5jPLhijq1Z1XQQTFsuIEGbGI.html?page=2&pos=15&cur_pos=15&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=14
+2024-12-25 09:15:54,608 - INFO - 'Toyota Venza XLE AWD V6 2013 Blue'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-venza-xle-awd-v6-2013-blue-ig4ANEWKAkqgE0rG8dwVNxH7.html?page=2&pos=17&cur_pos=17&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=16
+2024-12-25 09:16:03,505 - INFO - 'Toyota Corolla 2014 Red'  |  (21) attributes found  |  https://jiji.ng/ikeja/cars/toyota-corolla-2014-red-xtUsFLoBByP7vPWD36ADuOxa.html?page=2&pos=19&cur_pos=19&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=18
+2024-12-25 09:16:11,166 - INFO - 'Lexus RX 350 AWD 2015 Burgundy'  |  (22) attributes found  |  https://jiji.ng/ajah/cars/lexus-rx-350-awd-2015-burgundy-7Fj6I5slPDWXjz8ruOtJRU1A.html?page=2&pos=21&cur_pos=21&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=20
+2024-12-25 09:16:19,678 - INFO - 'Toyota Sienna 2013 Black'  |  (12) attributes found  |  https://jiji.ng/garki-ii/cars/toyota-sienna-2013-black-rNRX8HuDsC5gf8MEeB4g2ghn.html?page=2&pos=23&cur_pos=23&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=22
+2024-12-25 09:16:29,623 - INFO - 'Toyota Camry 2012 White'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-camry-2012-white-1iJprKaHISbfYmTEQwRDCXeC.html?page=2&pos=25&cur_pos=25&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=24
+2024-12-25 09:16:41,562 - INFO - 'New Mercedes-Benz G-Class 2022 White'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/new-mercedes-benz-g-class-2022-white-rYJskCDFEC3BmGtD1u9INqQP.html?page=2&pos=2&cur_pos=2&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=1
+2024-12-25 09:16:49,793 - INFO - 'Lexus ES 350 2008'  |  (15) attributes found  |  https://jiji.ng/osogbo/cars/lexus-es-350-2008-BKlrm4xQ3tGDV9Vj8eegBmlG.html?page=2&pos=4&cur_pos=4&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=3
+2024-12-25 09:16:59,155 - INFO - 'Mazda CX-9 2014 Gray'  |  (21) attributes found  |  https://jiji.ng/agege/cars/mazda-cx-9-2014-gray-aebU5t7ZJWJNZ4ZoqrFbr5pq.html?page=2&pos=6&cur_pos=6&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=5
+2024-12-25 09:17:10,647 - INFO - 'Lexus RX 330 2006 Gold'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/lexus-rx-330-2006-gold-dDQqN9ar5rbTJFgOgRXJ4HYm.html?page=2&pos=8&cur_pos=8&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=7
+2024-12-25 09:17:20,685 - INFO - 'Mercedes-Benz GLC-Class 2016 Black'  |  (16) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-glc-class-2016-black-daw1Vz33pHkFRMWylYIG4oo6.html?page=2&pos=10&cur_pos=10&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=9
+2024-12-25 09:17:30,981 - INFO - 'Toyota Highlander Limited V6 4x4 2004 Blue'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-limited-v6-4x4-2004-blue-5YWG62Pc9UXI2eRiUMAxvUwd.html?page=2&pos=12&cur_pos=12&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=11
+2024-12-25 09:17:40,522 - INFO - 'Ford Edge Sport 4dr AWD 2017 Blue'  |  (21) attributes found  |  https://jiji.ng/ojodu/cars/ford-edge-sport-4dr-awd-2017-blue-djMLLGWdBWpn0V50Nq3aBLUu.html?page=2&pos=14&cur_pos=14&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=13
+2024-12-25 09:17:48,594 - INFO - 'Toyota Highlander XLE V6 4x4 (3.5L 6cyl 6A) 2016 Brown'  |  (22) attributes found  |  https://jiji.ng/ajah/cars/toyota-highlander-xle-v6-4x4-3-5l-6cyl-6a-2016-brown-mV1s55TvrY5rG23bDmxTrhNP.html?page=2&pos=16&cur_pos=16&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=15
+2024-12-25 09:17:58,948 - INFO - 'Ford Transit 2013 Black'  |  (14) attributes found  |  https://jiji.ng/ojodu/cars/ford-transit-2013-black-v8Zo04a48ibap77LGACiu4jJ.html?page=2&pos=18&cur_pos=18&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=17
+2024-12-25 09:18:05,218 - INFO - 'Lexus RX 350 F Sport AWD 2018 Black'  |  (21) attributes found  |  https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-f-sport-awd-2018-black-5pZdxR99fwACF2HTFzJZvaVE.html?page=2&pos=20&cur_pos=20&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=19
+2024-12-25 09:18:13,464 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:18:38,662 - INFO - Retrying get_vehicle_page_info()  in 1.309987016483238s... (3 retries left)
+2024-12-25 09:18:48,059 - INFO - 'Toyota Highlander Limited 3.5l 4WD 2013 Gray'  |  (21) attributes found  |  https://jiji.ng/katampe/cars/toyota-highlander-limited-3-5l-4wd-2013-gray-p3gmCFK4cS5uEHYf6kA1fIVd.html?page=2&pos=22&cur_pos=22&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=21
+2024-12-25 09:18:48,060 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.309987016483238s... (3 retries left) ***
+2024-12-25 09:18:55,886 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:18:55,886 - INFO - Retrying get_vehicle_page_info()  in 1.081002015807627s... (3 retries left)
+2024-12-25 09:19:05,193 - INFO - 'Hyundai Elantra 2013 Red'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/hyundai-elantra-2013-red-yTHPd8YXboO1lNvvIMaMCAfE.html?page=2&pos=24&cur_pos=24&ads_per_page=25&ads_count=101463&lid=hPQ3LezXr-8VDaAg&indexPosition=23
+2024-12-25 09:19:05,194 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.081002015807627s... (3 retries left) ***
+2024-12-25 09:19:10,738 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 09:19:10,738 - INFO - Total vehicles processed: 50
+2024-12-25 09:19:10,739 - INFO - ====================================================================
+2024-12-25 09:19:10,739 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=3
+2024-12-25 09:19:10,741 - INFO - WebDriver is disconnected within get_vehicle_tag_list()
+2024-12-25 09:19:10,741 - INFO - Retrying get_vehicle_tag_list()  in 1.1612469316570948s... (3 retries left)
+2024-12-25 09:19:15,537 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=3
+2024-12-25 09:19:18,093 - INFO - 25 vehicles found
+2024-12-25 09:19:18,094 - INFO - Successful *** Retrying get_vehicle_tag_list()  in 1.1612469316570948s... (3 retries left) ***
+2024-12-25 09:19:23,561 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:19:23,562 - INFO - Retrying get_vehicle_page_info()  in 1.646126779763459s... (3 retries left)
+2024-12-25 09:19:35,620 - INFO - 'Lexus RX 350 F SPORT AWD 2013 Blue'  |  (20) attributes found  |  https://jiji.ng/amuwo-odofin/cars/lexus-rx-350-f-sport-awd-2013-blue-k9CVbCL8uoO25rJMXxedUQYC.html?page=3&pos=1&cur_pos=1&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=0
+2024-12-25 09:19:35,621 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.646126779763459s... (3 retries left) ***
+2024-12-25 09:19:44,584 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:19:44,585 - INFO - Retrying get_vehicle_page_info()  in 1.3938334380641308s... (3 retries left)
+2024-12-25 09:19:55,809 - INFO - 'Toyota Corolla LE 2005 Blue'  |  (19) attributes found  |  https://jiji.ng/lekki/cars/toyota-corolla-le-2005-blue-mrQi81XfzSvjGnLxLUTdzhZN.html?page=3&pos=4&cur_pos=4&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=3
+2024-12-25 09:19:55,810 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3938334380641308s... (3 retries left) ***
+2024-12-25 09:20:04,458 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:20:04,458 - INFO - Retrying get_vehicle_page_info()  in 1.0431689877233752s... (3 retries left)
+2024-12-25 09:20:14,921 - INFO - 'Toyota Sienna LE 7 Passenger 2012 Silver'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-sienna-le-7-passenger-2012-silver-BopHuROCvL2CliVWZfDgVX5R.html?page=3&pos=7&cur_pos=7&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=6
+2024-12-25 09:20:14,922 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0431689877233752s... (3 retries left) ***
+2024-12-25 09:20:26,094 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:20:26,096 - INFO - Retrying get_vehicle_page_info()  in 1.7778596253923968s... (3 retries left)
+2024-12-25 09:20:35,719 - INFO - 'Mazda CX-9 2014 Gray'  |  (21) attributes found  |  https://jiji.ng/agege/cars/mazda-cx-9-2014-gray-aebU5t7ZJWJNZ4ZoqrFbr5pq.html?page=3&pos=10&cur_pos=10&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=9
+2024-12-25 09:20:35,720 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.7778596253923968s... (3 retries left) ***
+2024-12-25 09:20:44,976 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:20:44,977 - INFO - Retrying get_vehicle_page_info()  in 1.164963362832994s... (3 retries left)
+2024-12-25 09:20:55,738 - INFO - 'Lexus RX 330 2006 Gold'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/lexus-rx-330-2006-gold-dDQqN9ar5rbTJFgOgRXJ4HYm.html?page=3&pos=13&cur_pos=13&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=12
+2024-12-25 09:20:55,739 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.164963362832994s... (3 retries left) ***
+2024-12-25 09:21:03,654 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:21:03,654 - INFO - Retrying get_vehicle_page_info()  in 1.8289042959028432s... (3 retries left)
+2024-12-25 09:21:14,550 - INFO - 'Toyota Highlander 2018 Blue'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-2018-blue-kVL87KFTfR6fzdz8pCcPbUHX.html?page=3&pos=16&cur_pos=16&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=15
+2024-12-25 09:21:14,551 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.8289042959028432s... (3 retries left) ***
+2024-12-25 09:21:23,310 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:21:23,311 - INFO - Retrying get_vehicle_page_info()  in 1.5164686816862798s... (3 retries left)
+2024-12-25 09:21:36,217 - INFO - 'Lexus RX 350 2007 White'  |  (11) attributes found  |  https://jiji.ng/ikeja/cars/lexus-rx-350-2007-white-8dkKQpmUuWqaVfIAGL5o5P9g.html?page=3&pos=19&cur_pos=19&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=18
+2024-12-25 09:21:36,217 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5164686816862798s... (3 retries left) ***
+2024-12-25 09:21:47,636 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:21:47,636 - INFO - Retrying get_vehicle_page_info()  in 1.0660566355845993s... (3 retries left)
+2024-12-25 09:21:58,554 - INFO - 'Toyota Highlander 2012 White'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-highlander-2012-white-5adYY1q8e5tjBqg4va9HCcHg.html?page=3&pos=22&cur_pos=22&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=21
+2024-12-25 09:21:58,555 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0660566355845993s... (3 retries left) ***
+2024-12-25 09:22:08,218 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:22:08,218 - INFO - Retrying get_vehicle_page_info()  in 1.0003068691856245s... (3 retries left)
+2024-12-25 09:22:17,554 - INFO - 'Toyota Venza XLE AWD V6 2013 Blue'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-venza-xle-awd-v6-2013-blue-ig4ANEWKAkqgE0rG8dwVNxH7.html?page=3&pos=25&cur_pos=25&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=24
+2024-12-25 09:22:17,555 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.0003068691856245s... (3 retries left) ***
+2024-12-25 09:22:26,904 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:22:26,904 - INFO - Retrying get_vehicle_page_info()  in 1.1577368820643166s... (3 retries left)
+2024-12-25 09:22:37,408 - INFO - 'New Mercedes-Benz G-Class 2022 White'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/new-mercedes-benz-g-class-2022-white-rYJskCDFEC3BmGtD1u9INqQP.html?page=3&pos=2&cur_pos=2&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=1
+2024-12-25 09:22:37,409 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.1577368820643166s... (3 retries left) ***
+2024-12-25 09:22:47,880 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:22:47,880 - INFO - Retrying get_vehicle_page_info()  in 1.5143831569856006s... (3 retries left)
+2024-12-25 09:23:01,152 - INFO - 'Mercedes-Benz M Class 2015 Black'  |  (21) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-m-class-2015-black-hx7394z8TMA9DCuTfMAE8L8E.html?page=3&pos=5&cur_pos=5&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=4
+2024-12-25 09:23:01,152 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5143831569856006s... (3 retries left) ***
+2024-12-25 09:23:10,761 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:23:10,762 - INFO - Retrying get_vehicle_page_info()  in 1.3818799955929921s... (3 retries left)
+2024-12-25 09:23:25,512 - INFO - 'Toyota Corolla 2015 Blue'  |  (9) attributes found  |  https://jiji.ng/katampe/cars/toyota-corolla-2015-blue-hM9ktsNRbieMzopA5aF5iwLO.html?page=3&pos=8&cur_pos=8&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=7
+2024-12-25 09:23:25,512 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3818799955929921s... (3 retries left) ***
+2024-12-25 09:23:36,477 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:23:36,477 - INFO - Retrying get_vehicle_page_info()  in 1.2649349889475057s... (3 retries left)
+2024-12-25 09:23:49,647 - INFO - 'Mercedes-Benz M Class ML 350 BlueTEC 4Matic 2013 Black'  |  (20) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-m-class-ml-350-bluetec-4matic-2013-black-13Od9xiKsHagszaC03kl1Qot.html?page=3&pos=11&cur_pos=11&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=10
+2024-12-25 09:23:49,647 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.2649349889475057s... (3 retries left) ***
+2024-12-25 09:23:58,163 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:23:58,163 - INFO - Retrying get_vehicle_page_info()  in 1.4466889739511877s... (3 retries left)
+2024-12-25 09:24:08,510 - INFO - 'Opel Zafira 2000 Gray'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/opel-zafira-2000-gray-ubGTddSAyGr1rrnXm6Bf4CG2.html?page=3&pos=14&cur_pos=14&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=13
+2024-12-25 09:24:08,510 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4466889739511877s... (3 retries left) ***
+2024-12-25 09:24:17,323 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:24:17,323 - INFO - Retrying get_vehicle_page_info()  in 1.9399455239685333s... (3 retries left)
+2024-12-25 09:24:27,315 - INFO - 'Mercedes-Benz GLC-Class 2016 Black'  |  (16) attributes found  |  https://jiji.ng/port-harcourt/cars/mercedes-benz-glc-class-2016-black-daw1Vz33pHkFRMWylYIG4oo6.html?page=3&pos=17&cur_pos=17&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=16
+2024-12-25 09:24:27,316 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.9399455239685333s... (3 retries left) ***
+2024-12-25 09:24:37,308 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:24:37,309 - INFO - Retrying get_vehicle_page_info()  in 1.3051131186356755s... (3 retries left)
+2024-12-25 09:24:47,769 - INFO - 'Toyota Venza 2010 Silver'  |  (10) attributes found  |  https://jiji.ng/ojodu/cars/toyota-venza-2010-silver-k9YrkbJHW8d8N5LRtHt5jgUo.html?page=3&pos=20&cur_pos=20&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=19
+2024-12-25 09:24:47,769 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.3051131186356755s... (3 retries left) ***
+2024-12-25 09:24:56,955 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:24:56,956 - INFO - Retrying get_vehicle_page_info()  in 1.5147786987208525s... (3 retries left)
+2024-12-25 09:25:07,780 - INFO - 'Toyota Camry 2010 Green'  |  (20) attributes found  |  https://jiji.ng/ikeja/cars/toyota-camry-2010-green-oFzPVwnhTFaQYisxiAkzxHmy.html?page=3&pos=23&cur_pos=23&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=22
+2024-12-25 09:25:07,781 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5147786987208525s... (3 retries left) ***
+2024-12-25 09:25:17,803 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:25:17,803 - INFO - Retrying get_vehicle_page_info()  in 1.9722684784033033s... (3 retries left)
+2024-12-25 09:25:30,623 - INFO - 'Toyota Highlander Limited 4x4 2008 Gray'  |  (21) attributes found  |  https://jiji.ng/katampe/cars/toyota-highlander-limited-4x4-2008-gray-8q9JVVf9uzYYzCbdKdbUs0RY.html?page=3&pos=3&cur_pos=3&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=2
+2024-12-25 09:25:30,624 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.9722684784033033s... (3 retries left) ***
+2024-12-25 09:25:40,658 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:25:40,658 - INFO - Retrying get_vehicle_page_info()  in 1.7212807830254533s... (3 retries left)
+2024-12-25 09:25:50,469 - INFO - 'Toyota Highlander 2010 White'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-highlander-2010-white-fEsqmZZ0PfliadAwCRwmiXHv.html?page=3&pos=6&cur_pos=6&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=5
+2024-12-25 09:25:50,470 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.7212807830254533s... (3 retries left) ***
+2024-12-25 09:25:59,511 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:25:59,511 - INFO - Retrying get_vehicle_page_info()  in 1.6016574402314505s... (3 retries left)
+2024-12-25 09:26:09,399 - INFO - 'Mercedes-Benz CLA-Class CLA 250 Sedan 2016 Silver'  |  (22) attributes found  |  https://jiji.ng/ajah/cars/mercedes-benz-cla-class-cla-250-sedan-2016-silver-mHU35qiF6ptAcGRAa0mDydrQ.html?page=3&pos=9&cur_pos=9&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=8
+2024-12-25 09:26:09,399 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.6016574402314505s... (3 retries left) ***
+2024-12-25 09:26:18,513 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:26:18,513 - INFO - Retrying get_vehicle_page_info()  in 1.6848196681582213s... (3 retries left)
+2024-12-25 09:26:28,741 - INFO - 'Mercedes-Benz GLK-Class 350 4MATIC 2011 Gray'  |  (21) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-glk-class-350-4matic-2011-gray-cQeb7JoxDI02RO2iWW6sJbzf.html?page=3&pos=12&cur_pos=12&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=11
+2024-12-25 09:26:28,742 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.6848196681582213s... (3 retries left) ***
+2024-12-25 09:26:38,993 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:26:38,993 - INFO - Retrying get_vehicle_page_info()  in 1.2411474406062273s... (3 retries left)
+2024-12-25 09:26:50,384 - INFO - 'Lexus GS 2008 Gray'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/lexus-gs-2008-gray-txeS8uRB3f0U2tjZrBpqkwZm.html?page=3&pos=15&cur_pos=15&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=14
+2024-12-25 09:26:50,385 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.2411474406062273s... (3 retries left) ***
+2024-12-25 09:26:59,753 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:26:59,753 - INFO - Retrying get_vehicle_page_info()  in 1.4417645387968285s... (3 retries left)
+2024-12-25 09:27:09,972 - INFO - 'Toyota Highlander Limited V6 4x4 2004 Blue'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-limited-v6-4x4-2004-blue-5YWG62Pc9UXI2eRiUMAxvUwd.html?page=3&pos=18&cur_pos=18&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=17
+2024-12-25 09:27:09,974 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.4417645387968285s... (3 retries left) ***
+2024-12-25 09:27:21,072 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:27:21,072 - INFO - Retrying get_vehicle_page_info()  in 1.5226071116847293s... (3 retries left)
+2024-12-25 09:27:30,666 - INFO - 'Mercedes-Benz CLA-Class CLA 250 4MATIC Sedan 2015 Silver'  |  (21) attributes found  |  https://jiji.ng/wuse-ii/cars/mercedes-benz-cla-class-cla-250-4matic-sedan-2015-silver-nug4cSH1pFX2QRIgVIdQQ2n6.html?page=3&pos=21&cur_pos=21&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=20
+2024-12-25 09:27:30,667 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.5226071116847293s... (3 retries left) ***
+2024-12-25 09:27:39,764 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:27:39,764 - INFO - Retrying get_vehicle_page_info()  in 1.1984746280450946s... (3 retries left)
+2024-12-25 09:27:50,889 - INFO - 'Mercedes-Benz GLE-Class GLE 350 2016 Red'  |  (11) attributes found  |  https://jiji.ng/ojodu/cars/mercedes-benz-gle-class-gle-350-2016-red-5jPLhijq1Z1XQQTFsuIEGbGI.html?page=3&pos=24&cur_pos=24&ads_per_page=25&ads_count=101460&lid=xL-pBw7d0emrnVX0&indexPosition=23
+2024-12-25 09:27:50,889 - INFO - Successful *** Retrying get_vehicle_page_info()  in 1.1984746280450946s... (3 retries left) ***
+2024-12-25 09:27:56,963 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 09:27:56,963 - INFO - Total vehicles processed: 75
+2024-12-25 09:27:56,963 - INFO - ====================================================================
+2024-12-25 09:28:06,108 - INFO - Restarted driver at page 4
+2024-12-25 09:28:06,108 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=4
+2024-12-25 09:28:08,488 - INFO - 25 vehicles found
+2024-12-25 09:28:16,920 - INFO - 'Mercedes-Benz GL-Class 2015 Blue'  |  (22) attributes found  |  https://jiji.ng/ojodu/cars/mercedes-benz-gl-class-2015-blue-zbiO4cyOnDBMuG8ArCtkrrb6.html?page=4&pos=1&cur_pos=1&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=0
+2024-12-25 09:28:27,257 - INFO - 'New Toyota Land Cruiser Prado 2024 Black'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/new-toyota-land-cruiser-prado-2024-black-MAWBHdDsqxRW2oYBjQoZt4H.html?page=4&pos=3&cur_pos=3&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=2
+2024-12-25 09:28:36,516 - INFO - 'Mercedes-Benz C400 2017 Silver'  |  (12) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-c400-2017-silver-al3k366CQ99GYb1AF86BFp54.html?page=4&pos=5&cur_pos=5&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=4
+2024-12-25 09:28:50,943 - INFO - 'Ford F-150 SuperCrew 2008 White'  |  (22) attributes found  |  https://jiji.ng/ojodu/cars/ford-f-150-supercrew-2008-white-3UogtYtSQICsKE84ATVFakLG.html?page=4&pos=7&cur_pos=7&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=6
+2024-12-25 09:29:03,407 - INFO - 'Mercedes-Benz M Class 2015 Silver'  |  (21) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-m-class-2015-silver-nJcNFNyhBWHVaNrZiRBOg8fS.html?page=4&pos=9&cur_pos=9&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=8
+2024-12-25 09:29:29,104 - INFO - 'Mercedes-Benz GLK-Class 350 4MATIC 2011 Gray'  |  (20) attributes found  |  https://jiji.ng/amuwo-odofin/cars/mercedes-benz-glk-class-350-4matic-2011-gray-6gyYhhTT36Di5NSXNs54loK2.html?page=4&pos=11&cur_pos=11&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=10
+2024-12-25 09:29:42,507 - INFO - 'Hyundai Tucson Limited FWD 2017 Black'  |  (21) attributes found  |  https://jiji.ng/wuse/cars/hyundai-tucson-limited-fwd-2017-black-cBVGhaS9bMguZSrSOzGEXzjG.html?page=4&pos=13&cur_pos=13&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=12
+2024-12-25 09:29:59,946 - INFO - 'Mercedes-Benz GLE-Class GLE 350 2017 Gray'  |  (14) attributes found  |  https://jiji.ng/wuse/cars/mercedes-benz-gle-class-gle-350-2017-gray-sotinXthQF6HkwcX16tA3555.html?page=4&pos=15&cur_pos=15&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=14
+2024-12-25 09:30:09,327 - INFO - 'Toyota Highlander 2014 Gold'  |  (13) attributes found  |  https://jiji.ng/magodo/cars/toyota-highlander-2014-gold-bvqaud702v4mUEF9BMwqv8HM.html?page=4&pos=17&cur_pos=17&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=16
+2024-12-25 09:30:20,813 - INFO - 'New Lexus LX 2024 Black'  |  (11) attributes found  |  https://jiji.ng/gwarinpa/cars/new-lexus-lx-2024-black-i8rklMH4d37GjGUpRSC1RWzF.html?page=4&pos=19&cur_pos=19&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=18
+2024-12-25 09:30:35,437 - INFO - 'Toyota Venza 2011 White'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-venza-2011-white-kye8bB2eGjXRm4hVV9UHtmel.html?page=4&pos=21&cur_pos=21&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=20
+2024-12-25 09:30:49,642 - INFO - 'Toyota Corolla 2017 Black'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2017-black-sKLKOdhxrOMgr3PztBAnnRvy.html?page=4&pos=23&cur_pos=23&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=22
+2024-12-25 09:30:59,150 - INFO - 'Toyota Highlander 2017 White'  |  (22) attributes found  |  https://jiji.ng/ikeja/cars/toyota-highlander-2017-white-8OFYY6lHfpx14t9pfOJoKmPJ.html?page=4&pos=25&cur_pos=25&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=24
+2024-12-25 09:31:11,026 - INFO - 'Hyundai Sonata 2015 White'  |  (18) attributes found  |  https://jiji.ng/ifako-ijaiye/cars/hyundai-sonata-2015-white-dz70VCAvoIY6PjCYEL7vdqGG.html?page=4&pos=2&cur_pos=2&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=1
+2024-12-25 09:31:36,045 - INFO - 'Lexus RX 2000 Gold'  |  (15) attributes found  |  https://jiji.ng/amuwo-odofin/cars/lexus-rx-2000-gold-93hri4pMhXL0ELd1yG1KjjUs.html?page=4&pos=4&cur_pos=4&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=3
+2024-12-25 09:31:57,172 - INFO - 'Toyota Camry 2019 Red'  |  (11) attributes found  |  https://jiji.ng/garki-ii/cars/toyota-camry-2019-red-u3R7hpYPI83NzYc11a2gpCCA.html?page=4&pos=6&cur_pos=6&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=5
+2024-12-25 09:32:08,157 - INFO - 'Toyota Camry 2001 Brown'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-camry-2001-brown-7piqyY1FXLFJhl64l6fjZCaN.html?page=4&pos=8&cur_pos=8&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=7
+2024-12-25 09:32:19,032 - INFO - 'Toyota Sienna 2019 Brown'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/toyota-sienna-2019-brown-dUOG3W2gBEj6ok4AD0mPQy4g.html?page=4&pos=10&cur_pos=10&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=9
+2024-12-25 09:32:37,232 - INFO - 'Hyundai Sonata 2012 Gray'  |  (16) attributes found  |  https://jiji.ng/lekki/cars/hyundai-sonata-2012-gray-wOtZHkyxNbd8ul61i5BJWC0P.html?page=4&pos=12&cur_pos=12&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=11
+2024-12-25 09:32:50,386 - INFO - 'New Lexus LX 2023 Gray'  |  (12) attributes found  |  https://jiji.ng/ikeja/cars/new-lexus-lx-2023-gray-xoX0mnFRJgsosSu5nf6kpxQw.html?page=4&pos=14&cur_pos=14&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=13
+2024-12-25 09:33:13,373 - INFO - 'Lexus RX 2010 Red'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/lexus-rx-2010-red-zxhb0eber91UrJzsYjyBfhtY.html?page=4&pos=16&cur_pos=16&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=15
+2024-12-25 09:33:24,335 - INFO - 'Toyota Highlander XLE 4x4 V6 (3.5L 6cyl 8A) 2018 Burgundy'  |  (18) attributes found  |  https://jiji.ng/ojodu/cars/toyota-highlander-xle-4x4-v6-3-5l-6cyl-8a-2018-burgundy-dYbGRIqv4gfvbOknQg3ddygv.html?page=4&pos=18&cur_pos=18&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=17
+2024-12-25 09:33:41,996 - INFO - 'Lexus GX 2012 Black'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/lexus-gx-2012-black-6nI6N4qetWjqPS3uAZOekOUy.html?page=4&pos=20&cur_pos=20&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=19
+2024-12-25 09:33:53,267 - INFO - 'New Toyota Hilux 2024 Black'  |  (10) attributes found  |  https://jiji.ng/lekki/cars/new-toyota-hilux-2024-black-yFrQS5Y6U0vFI5EMBRDwMIi2.html?page=4&pos=22&cur_pos=22&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=21
+2024-12-25 09:34:09,597 - INFO - 'Mercedes-Benz GLK-Class 2015 Blue'  |  (9) attributes found  |  https://jiji.ng/central-business-district/cars/mercedes-benz-glk-class-2015-blue-mZKCxC4Ek8dDQEnNoGvuccAC.html?page=4&pos=24&cur_pos=24&ads_per_page=25&ads_count=101470&lid=hpuYGe34RGF9lF6K&indexPosition=23
+2024-12-25 09:34:12,618 - INFO - Data written to C:\Users\bidem\Projects\git\cars_information_scraper\data\2024-12-25.json
+2024-12-25 09:34:12,618 - INFO - Total vehicles processed: 100
+2024-12-25 09:34:12,618 - INFO - ====================================================================
+2024-12-25 09:34:12,618 - INFO - Getting vehicles data from: https://jiji.ng/cars?page=5
+2024-12-25 09:34:15,445 - INFO - 25 vehicles found
+2024-12-25 09:34:24,982 - INFO - 'Chevrolet Suburban LT 2500 2012 Black'  |  (19) attributes found  |  https://jiji.ng/ojodu/cars/chevrolet-suburban-lt-2500-2012-black-sI1QWTW2tacelk8PT4bltlJm.html?page=5&pos=1&cur_pos=1&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=0
+2024-12-25 09:34:36,642 - INFO - 'Jaguar XJ 4.2 Super Automatic 2008 Black'  |  (19) attributes found  |  https://jiji.ng/garki-ii/cars/jaguar-xj-4-2-super-automatic-2008-black-tHwy6tig4cTeHH31lOKCRJXd.html?page=5&pos=3&cur_pos=3&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=2
+2024-12-25 09:34:51,814 - INFO - 'Acura ILX 2017 Black'  |  (14) attributes found  |  https://jiji.ng/lekki/cars/acura-ilx-2017-black-jFo6po5PvsvtfYAJRTdC52pl.html?page=5&pos=5&cur_pos=5&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=4
+2024-12-25 09:35:03,452 - INFO - 'Toyota Corolla 2014 Silver'  |  (9) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2014-silver-3pzyHQwNJy8J1VssX9dgl2zO.html?page=5&pos=7&cur_pos=7&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=6
+2024-12-25 09:35:16,826 - INFO - 'Mercedes-Benz A-Class A 220 4MATIC 2019 Red'  |  (21) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-a-class-a-220-4matic-2019-red-q2OlszuuAQSezJcQ5kgRNA4S.html?page=5&pos=9&cur_pos=9&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=8
+2024-12-25 09:35:27,896 - INFO - 'Toyota Camry 2008 Gold'  |  (21) attributes found  |  https://jiji.ng/ikeja/cars/toyota-camry-2008-gold-hMfwGLhhHM2i72ah1QeGutF7.html?page=5&pos=11&cur_pos=11&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=10
+2024-12-25 09:35:39,362 - INFO - 'Mercedes-Benz GLE-Class AMG GLE 53 4MATIC 2024 White'  |  (12) attributes found  |  https://jiji.ng/lekki/cars/mercedes-benz-gle-class-amg-gle-53-4matic-2024-white-cYF9tehW0sv3HkfesZ4etCzs.html?page=5&pos=13&cur_pos=13&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=12
+2024-12-25 09:35:51,449 - INFO - 'Toyota Corolla 2017 Red'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-corolla-2017-red-km0FZMGf1mR1o9LVfH7DxVCr.html?page=5&pos=15&cur_pos=15&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=14
+2024-12-25 09:36:05,171 - INFO - 'Mercedes-Benz GLC-Class 2016 Gray'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/mercedes-benz-glc-class-2016-gray-6wl3SbIszlqATfyPgHGj5kCn.html?page=5&pos=17&cur_pos=17&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=16
+2024-12-25 09:36:18,636 - INFO - 'Mercedes-Benz GLE-Class GLE 350 2017 Gray'  |  (11) attributes found  |  https://jiji.ng/ojodu/cars/mercedes-benz-gle-class-gle-350-2017-gray-msbIEDT8OZAZnoHx6V5preJM.html?page=5&pos=19&cur_pos=19&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=18
+2024-12-25 09:36:30,251 - INFO - 'Toyota Highlander 2003 Gray'  |  (10) attributes found  |  https://jiji.ng/kubwa/cars/toyota-highlander-2003-gray-8cFTU0UJMrym13OXUaJBXcux.html?page=5&pos=21&cur_pos=21&ads_per_page=25&ads_count=101464&lid=ZsLEwVGQro71DbOM&indexPosition=20
+2024-12-25 09:36:43,224 - INFO - WebDriver is disconnected within get_vehicle_page_info()
+2024-12-25 09:38:23,774 - INFO - Retrying get_vehicle_page_info()  in 1.7371920136687624s... (3 retries left)
+2024-12-25 10:32:38,217 - ERROR - Error in  configure_chrome_driver: Could not reach host. Are you offline?
+2024-12-25 10:32:39,420 - ERROR - Error in scrape_car_prices(): Could not reach host. Are you offline?
+2024-12-25 10:32:44,458 - INFO - The cars_info_agent, web scraper, is exiting.
