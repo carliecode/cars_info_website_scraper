@@ -10,52 +10,22 @@ from selenium.common.exceptions import WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup, ResultSet, Tag
 import os
+import globals as gb
 from datetime import datetime
 
 DEFAULT_RETRIES = 3
 DEFAULT_BACKOFF = 1
-
-
-def setup_logging(log_file='logs/cars_info_log.log', level=logging.INFO)-> logging.Logger:
-    logger = logging.getLogger(__name__)
-    logger.setLevel(level)
-    
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    
-    file_handler = logging.FileHandler(log_file, encoding='utf-8')
-    file_handler.setFormatter(formatter)
-    stream_handler = logging.StreamHandler()
-    stream_handler.setFormatter(formatter)
-    
-    logger.addHandler(file_handler)
-    logger.addHandler(stream_handler)
-    return logger
-
-
-logger = setup_logging()
+logger = gb.setup_logging()
 
 
 def get_random_user_agent() -> str:
     ua = UserAgent()
     return ua.random
 
-
 def get_random_proxy() -> dict:
-    proxies = [
-        'http://8.219.97.248:80',
-        'http://102.213.84.250:8080',
-        'http://41.216.160.138:8082',
-        'http://41.87.77.34:32650',
-        'http://197.249.5.150:8443',
-        'http://197.249.5.150:443',
-        'http://43.246.200.142:9080',
-        'http://103.239.253.118:58080',
-    ]
-    proxy = random.choice(proxies)
+    proxy = random.choice(gb.PROXIES)
     return {"http": proxy, "https": proxy}
 
-
-# Configure Chrome Driver
 def configure_chrome_driver() -> webdriver.Chrome:
     try:
         options = ChromeOptions()
@@ -67,7 +37,6 @@ def configure_chrome_driver() -> webdriver.Chrome:
         options.add_argument("--enable-unsafe-swiftshader")
         options.add_argument('--disable-devtools')
 
-        # Rotate User-Agent for every request
         options.add_argument(f"user-agent={get_random_user_agent()}")
         '''
         proxies = get_random_proxy()
@@ -82,15 +51,24 @@ def configure_chrome_driver() -> webdriver.Chrome:
         raise
 
 
-def restart_driver(driver: webdriver.Chrome ) -> webdriver.Chrome:
-    
+def restart_driver(driver: webdriver.Chrome ) -> webdriver.Chrome:    
     if driver.service.process.poll() is not None:
-        logger.info("WebDriver disconnected. Restarting...")
+        logger.info("WebDriver is disconnected. Restarting...")
         driver.quit()
         driver = configure_chrome_driver()  # or configure_firefox_driver()
     return driver
 
-
+def create_data_file(data_dir) -> str:
+    data_folder = os.path.join(os.getcwd(), data_dir)
+    os.makedirs(data_folder, exist_ok=True)
+    
+    file_name = datetime.now().strftime("%Y-%m-%d") + ".json"
+    file_path = os.path.join(data_folder, file_name)
+    
+    if not os.path.exists(file_path):
+        open(file_path, 'w').close()  # Create an empty file
+    
+    return file_path
 
 def get_vehicle_tag_list(driver: webdriver.Chrome, url: str, retries: int = DEFAULT_RETRIES, backoff: int = DEFAULT_BACKOFF) -> ResultSet[Tag]:
     try:
@@ -183,8 +161,10 @@ def get_vehicle_page_info(driver: webdriver.Chrome, tag_info: dict, listing_url:
             key = key[0].upper() + key[1:]
             value = attr.select_one("div.b-advert-attribute__value").text.strip()
             details[key] = value
-
+        
         details['PageURL'] = listing_url
+        details['ExtractionDate'] = datetime.today().date()
+
         combined_info = header_info | details
 
         logger.info(f"'{tag_info['AdvertTitle']}'  |  ({len(details)}) attributes found  |  {listing_url}")
@@ -219,17 +199,17 @@ def save_to_json_file(data: list, filename: str) -> None:
         logger.error(f"Error in  save_to_json_file(): {str(e)}")
 
 
-def main(data_file: str  = "data.json") -> None:
-
+def main() -> None:
+    data_file = create_data_file(gb.DATA_DIR)
     base_url = "https://jiji.ng/cars?page="  
     max_pages = 1000  
     vehicles_count = 0
     vehicles_data = []
-
-    driver = configure_chrome_driver()
+    driver = None
 
     try:
-        
+        driver = configure_chrome_driver()
+
         for page in range(1, max_pages + 1):
             url = f"{base_url}{page}"
             if page % 4 == 0:
@@ -269,5 +249,6 @@ def main(data_file: str  = "data.json") -> None:
         driver.quit()
         logger.info(f"The cars_info_agent, web scraper, is exiting.")
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
