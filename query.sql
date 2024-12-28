@@ -6,6 +6,7 @@ select
 	(data::json -> 'ItemCondition') as ItemCondition,
 	(data::json -> 'FuelType') as FuelType,
 	(data::json -> 'VehicleTransmission') as VehicleTransmission,
+	(data::json -> 'MileageFromOdometer') as MileageFromOdometer,
 	(data::json -> 'PostedTimeDescription') as PostedTimeDescription,
 	(data::json -> 'AdvertExtendedDescription') as AdvertExtendedDescription,
 	(data::json -> 'SecondCondition') as SecondCondition,
@@ -21,5 +22,8 @@ select
 	(data::json -> 'Color') as Color,
 	(data::json -> 'InteriorColor') as InteriorColor,
 	(data::json -> 'Seats') as Seats,
-	(data::json -> 'VinChassisNumber') as VinChassisNumber
+	(data::json -> 'VinChassisNumber') as VinChassisNumber,
+	(data::json -> 'RegisteredCar') as RegisteredCar,
+	(data::json -> 'ExchangePossible') as ExchangePossible
 from src_cars_information ;
+
