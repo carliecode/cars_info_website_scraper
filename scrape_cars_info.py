@@ -163,7 +163,7 @@ def get_vehicle_page_info(driver: webdriver.Chrome, tag_info: dict, listing_url:
             details[key] = value
         
         details['PageURL'] = listing_url
-        details['ExtractionDate'] = datetime.today().date()
+        details['ExtractionDate'] = str(datetime.today().date())
 
         combined_info = header_info | details
 
@@ -199,7 +199,7 @@ def save_to_json_file(data: list, filename: str) -> None:
         logger.error(f"Error in  save_to_json_file(): {str(e)}")
 
 
-def main() -> None:
+def execute() -> None:
     data_file = create_data_file(gb.DATA_DIR)
     base_url = "https://jiji.ng/cars?page="  
     max_pages = 1000  
@@ -251,4 +251,4 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    execute()

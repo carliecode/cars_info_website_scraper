@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime
 
-DATA_DIR = 'data'
+DATA_DIR = '../cars_info_proj_data/source'
 
 PROXIES = [
         'http://8.219.97.248:80',
